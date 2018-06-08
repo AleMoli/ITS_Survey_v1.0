@@ -102,7 +102,7 @@
                             <label class="hidden-xs"><%-- TESTO VISIBILE SOLO IN VERSIONE DESKTOP --%></label>
                         </div>
                     </div>
-                    <form action="desktop.jsp" enctype="multipart/form-data" id="form-start" method="get"
+                    <form action="questionario.jsp" enctype="multipart/form-data" id="form-start" method="get"
                           role="form">
                         <div class="row row-form-inline">
                             <div class="col-xs-12">

@@ -1,291 +1,230 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ext_alessandro.molin
-  Date: 28/05/2018
-  Time: 17:12
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Questionario di valutazione</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%--CSS LOCALE--%>
-    <link href="CSS_PROVA.css" rel="stylesheet" media="screen">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>Invia il tuo Curriculum Vitae a Randstad</title>
+    <meta name="description" content="Compila il modulo per inviare il tuo Curriculum Vitae a Randstad.">
+    <meta name="keywords" content="invio cv a randstad">
+    <link href="css_myRandstad.css" rel="stylesheet" media="screen">
+    <%--<link href="css_randstad_nostro.css" rel="stylesheet" media="screen">--%>
+    <style>
+        body.cbp-spmenu-push {
+            -webkit-transition: none !important;
+            transition: none !important;
+        }
+    </style>
 </head>
-<body>
-<div class="container-fluid.blue-class">
-    <%--INIZIO FORM--%>
-    <form method="post" action="Inserimento">
-        <%--INIZIO CARD DOMANDA 1--%>
-        <div class="card mt-2">
-            <div class="card-header text-center"><h3 class="card-title">1</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R0" id="R0_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R0_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R0" id="R0_2" autocomplete="off">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R0_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R0" id="R0_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R0_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R0" id="R0_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R0_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="R0" id="R0_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R0_5">5</label>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <%--FINE CARD DOMANDA 1--%>
-        <%--INIZIO CARD DOMANDA 2--%>
-        <div class="card mt-2">
-            <div class="card-header text-center"><h3 class="card-title">2</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R1" id="R1_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R1_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R1" id="R1_2" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R1_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R1" id="R1_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R1_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R1" id="R1_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R1_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="R1" id="R1_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R1_5">5</label>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <%--FINE CARD DOMANDA 2--%>
-        <%--INIZIO CARD DOMANDA 3--%>
-        <div class="card">
-            <div class="card-header text-center"><h3 class="card-title">3</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R2" id="R2_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R2_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R2" id="R2_2" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R2_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R2" id="R2_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R2_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R2" id="R2_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R2_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="R2" id="R2_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R2_5">5</label>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <%--FINE CARD DOMANDA 3--%>
-        <%--INIZIO CARD DOMANDA 4--%>
-        <div class="card">
-            <div class="card-header text-center"><h3 class="card-title">4</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R3" id="R3_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R3_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R3" id="R3_2" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R3_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R3" id="R3_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R3_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R3" id="R3_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R3_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="R3" id="R3_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R3_5">5</label>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <%--FINE CARD DOMANDA 4--%>
-        <%--INIZIO CARD DOMANDA 5--%>
-        <div class="card">
-            <div class="card-header text-center"><h3 class="card-title">5</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R4" id="R4_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R4_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R4" id="R4_2" autocomplete="off">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R4_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R4" id="R4_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R4_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R4" id="R4_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R4_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="options" id="R4_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R4_5">5</label>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <%--FINE CARD DOMANDA 5--%>
-        <%--INIZIO CARD DOMANDA 6--%>
-        <div class="card">
-            <div class="card-header text-center"><h3 class="card-title">6</h3>
-            </div>
-            <div class="card-body text-center">
-                <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci
-                    velit?</p>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-danger">
-                        <input type="radio" name="R5" id="R5_1" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R5_1">1</label>
-                    </label>
-                    <label class="btn btn-warning">
-                        <input type="radio" name="R5" id="R5_2" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R5_2">2</label> </label>
-                    <label class="btn btn-info">
-                        <input type="radio" name="R5" id="R5_3" autocomplete="off" checked=""> <span
-                            class="glyphicon glyphicon-ok"></span>
-                        <label for="R5_3">3</label>
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="R5" id="R5_4" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R5_4">4</label>
-                    </label>
-                    <label class="btn btn-success active">
-                        <input type="radio" name="R5" id="R5_5" autocomplete="off" checked="">
-                        <span class="glyphicon glyphicon-ok"></span>
-                        <label for="R5_5">5</label>
-                    </label>
-                </div>
+<body class="cbp-spmenu-push" id="top" style="">
+<div class="row-offcanvas row-offcanvas-right">
+    <%--INIZIO JS SCROLLING NAVBAR--%>
+    <script>
+        window.onscroll = function () {
+            console.log(window.pageYOffset);
+            var nav = document.getElementById('nav');
+            if (window.pageYOffset > 1) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
+        }
+    </script>
+    <%--FINE JS SCROLLING NAVBAR--%>
+    <!-- Navbar mobile e Desktop -->
 
+    <div class="visible-xs visible-sm navbar-responsive">
+        <div id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="https://www.randstad.it/">
+
+                    </a>
+                </div>
             </div>
         </div>
-        <%--FINE CARD DOMANDA 6--%>
-            <%--INIZIO CARD DOMANDA 6--%>
-            <div class="card">
-                <div class="card-header text-center"><h3 class="card-title">6</h3>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas showhide navbar-collapse" id="sidebar" role="navigation">
+            <div class="sidebar-nav">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">
+                        <div class="icon--dot icon-support--blue icon--inline icon--middle"></div>
+                        assistenza</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section page-tit">
+            <div class="container">
+                <div class="row">
+                    <h1>questionario</h1>
                 </div>
-                <div class="card-body text-center">
-                    <p class="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                        adipisci
-                        velit?</p>
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-danger">
-                            <input type="radio" name="R5" id="R5_1" autocomplete="off" checked=""> <span
-                                class="glyphicon glyphicon-ok"></span>
-                            <label for="R5_1">1</label>
-                        </label>
-                        <label class="btn btn-warning">
-                            <input type="radio" name="R5" id="R5_2" autocomplete="off" checked="">
-                            <span class="glyphicon glyphicon-ok"></span>
-                            <label for="R5_2">2</label> </label>
-                        <label class="btn btn-info">
-                            <input type="radio" name="R5" id="R5_3" autocomplete="off" checked=""> <span
-                                class="glyphicon glyphicon-ok"></span>
-                            <label for="R5_3">3</label>
-                        </label>
-                        <label class="btn btn-primary">
-                            <input type="radio" name="R5" id="R5_4" autocomplete="off" checked="">
-                            <span class="glyphicon glyphicon-ok"></span>
-                            <label for="R5_4">4</label>
-                        </label>
-                        <label class="btn btn-success active">
-                            <input type="radio" name="R5" id="R5_5" autocomplete="off" checked="">
-                            <span class="glyphicon glyphicon-ok"></span>
-                            <label for="R5_5">5</label>
-                        </label>
+            </div>
+        </div>
+    </div>
+    <!-- Desktop -->
+    <div class="visible-md visible-lg">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-help text-right">
+                    <ul>
+                        <li><a id="faqAnonimoId" href="#"
+                               target="_blank"><img src="img/ic-support.svg"> assistenza</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/randstad_logo_white.svg">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a class="active" href="#">questionario di valutazione</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- End Navbar Mobile e Desktop -->
+
+    <%--INIZIO TESTO--%>
+    <%--INIZIO JS RADIO--%>
+    <script>
+        function Flag01() {
+            document.getElementById("Risposta01").classList.add("checked");
+            document.getElementById("Risposta02").classList.remove("checked");
+            document.getElementById("Risposta03").classList.remove("checked");
+            document.getElementById("Risposta04").classList.remove("checked");
+            document.getElementById("Risposta05").classList.remove("checked");
+        }
+
+        function Flag02() {
+            document.getElementById("Risposta01").classList.remove("checked");
+            document.getElementById("Risposta02").classList.add("checked");
+            document.getElementById("Risposta03").classList.remove("checked");
+            document.getElementById("Risposta04").classList.remove("checked");
+            document.getElementById("Risposta05").classList.remove("checked");
+        }
+
+        function Flag03() {
+            document.getElementById("Risposta01").classList.remove("checked");
+            document.getElementById("Risposta02").classList.remove("checked");
+            document.getElementById("Risposta03").classList.add("checked");
+            document.getElementById("Risposta04").classList.remove("checked");
+            document.getElementById("Risposta05").classList.remove("checked");
+        }
+
+        function Flag04() {
+            document.getElementById("Risposta01").classList.remove("checked");
+            document.getElementById("Risposta02").classList.remove("checked");
+            document.getElementById("Risposta03").classList.remove("checked");
+            document.getElementById("Risposta04").classList.add("checked");
+            document.getElementById("Risposta05").classList.remove("checked");
+        }
+
+        function Flag05() {
+            document.getElementById("Risposta01").classList.remove("checked");
+            document.getElementById("Risposta02").classList.remove("checked");
+            document.getElementById("Risposta03").classList.remove("checked");
+            document.getElementById("Risposta04").classList.remove("checked");
+            document.getElementById("Risposta05").classList.add("checked");
+        }
+
+    </script>
+    <%--FINE JS RADIO--%>
+    <div class="section page nobox">
+        <div class="container pt-0">
+            <form action="questionario.jsp" enctype="multipart/form-data" id="form-start" method="get"
+                  role="form">
+                <%--INZIO DOMANDA 1--%>
+                <div class="row row-form-inline">
+                    <div class="col-xs-12">
+                        <label>In generale, ha trovato di suo gradimento il corso?</label>
+                        <input id="R0" name="R0" type="hidden" value="true">
+                        <div class="form-group-inline">
+                            <label class="control control--radio">
+                                <div onclick="Flag01()" id="Risposta01" class="iradio_square-blue"><input id="R0_1"
+                                                                                                          name="R0_1"
+                                                                                                          type="radio"
+                                                                                                          value="1"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                1
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag02()" id="Risposta02" class="iradio_square-blue"><input id="R0_2"
+                                                                                                          name="R0_2"
+                                                                                                          type="radio"
+                                                                                                          value="2"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                2
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag03()" id="Risposta03" class="iradio_square-blue"><input id="R0_3"
+                                                                                                          name="R0_3"
+                                                                                                          type="radio"
+                                                                                                          value="3"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                3
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag04()" id="Risposta04" class="iradio_square-blue"><input id="R0_4"
+                                                                                                          name="R0_4"
+                                                                                                          type="radio"
+                                                                                                          value="4"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                4
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag05()" id="Risposta05" class="iradio_square-blue"><input id="R0_5"
+                                                                                                          name="R0_5"
+                                                                                                          type="radio"
+                                                                                                          value="5"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                5
+                            </label>
+
+                        </div>
                     </div>
-
                 </div>
+                <%--FINE DOMANDA 1--%>
+                <%--INIZIO DOMANDA 2--%>
+
+                <%--FINE DOMANDA 2--%>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="box-inner">
+            <div class="row">
+                <b>RANDSTAD ITALIA S.P.A.</b>
+                <br><br>
+                Sede Legale: Via R. Lepetit n. 8/10 - 20124 Milano<br>
+                Partita IVA n. 12730090151<br>
+                Codice Fiscale n. 12730090151<br>
+                Numero di iscrizione presso il Registro delle Imprese di Milano n. 12730090151<br>
+                Repertorio Economico Amministrativo (REA) n. 1581244<br>
+                Capitale Sociale Euro 27.110.320,00 i.v.<br>
+                Direzione e Coordinamento Randstad Holding NV<br>
+                Aut. Min. e iscr. Albo Agenzie per il Lavoro n° 1102-SG del 26/11/04&#8203;<br>
             </div>
-            <%--FINE CARD DOMANDA 6--%>
-    </form>
-    <%--FINE FORM--%>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

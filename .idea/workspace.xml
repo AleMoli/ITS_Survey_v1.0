@@ -7,7 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdcd73c-3839-4c59-b495-e9bc05bbbc40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/web/InsertDocenti.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/InsertDocenti.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/InsertDocenti.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/InsertDocenti.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/desktop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css_myRandstad.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css_myRandstad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/desktop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/questionario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,17 +49,39 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="246">
+              <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="105" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertDocenti.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/InsertDocenti.jsp">
+      <file leaf-file-name="questionario.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="273">
+              <caret line="144" column="61" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#label#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#label#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#label#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#label#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#label#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#label#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css_myRandstad.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css_myRandstad.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="12578" column="9" lean-forward="true" selection-start-line="12578" selection-start-column="9" selection-end-line="12578" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -92,6 +122,8 @@
       <find>.navbar-brand</find>
       <find>navigation</find>
       <find>m</find>
+      <find>.form-group-inline .control</find>
+      <find>.form-group-inline</find>
     </findStrings>
     <replaceStrings>
       <replace>R3_1</replace>
@@ -142,11 +174,12 @@
         <option value="$PROJECT_DIR$/web/randstad.jsp" />
         <option value="$PROJECT_DIR$/web/css_randstad_nostro.css" />
         <option value="$PROJECT_DIR$/web/trovajava.jsp" />
-        <option value="$PROJECT_DIR$/web/css_myRandstad.css" />
         <option value="$PROJECT_DIR$/web/desktop.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/ITS/Inserimento.java" />
         <option value="$PROJECT_DIR$/web/InsertDocenti.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/questionario.jsp" />
+        <option value="$PROJECT_DIR$/web/css_myRandstad.css" />
       </list>
     </option>
   </component>
@@ -202,13 +235,6 @@
               <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ITS" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITS_Survey_v1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ITS" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +253,13 @@
               <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITS_Survey_v1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -580,12 +613,34 @@
       <workItem from="1528357890712" duration="2889000" />
       <workItem from="1528377591859" duration="10225000" />
       <workItem from="1528444164007" duration="3295000" />
-      <workItem from="1528451718934" duration="2895000" />
+      <workItem from="1528451718934" duration="7146000" />
     </task>
+    <task id="LOCAL-00001" summary="commentato inser docenti di un progetto dell'anno scorso">
+      <created>1528455124275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528455124275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Alessandro">
+      <created>1528455207513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528455207513</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Alessandro, aggiunte &amp;egrave">
+      <created>1528455509567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528455509567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113266000" />
+    <option name="totallyTimeSpent" value="117517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,23 +659,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.3995749" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.38791734" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.38788524" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.134375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.134375" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" weight="0.32731137" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32943678" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32943678" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" weight="0.32731137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -633,19 +688,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commentato inser docenti di un progetto dell'anno scorso" />
+    <MESSAGE value="Alessandro" />
+    <MESSAGE value="Alessandro, aggiunte &amp;egrave" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alessandro, aggiunte &amp;egrave" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/randstad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css_randstad_nostro.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -660,7 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/desktop.jsp">
+    <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
@@ -702,7 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/desktop.jsp">
+    <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="38" lean-forward="true" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
@@ -749,13 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Model/V_Docenti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -855,13 +902,6 @@
     <entry file="file://$PROJECT_DIR$/web/img/randstad_logo_white.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css_myRandstad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14505" column="21" lean-forward="true" selection-start-line="14505" selection-start-column="21" selection-end-line="14505" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/trovajava.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -910,24 +950,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/desktop.jsp">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="100" column="75" selection-start-line="100" selection-start-column="75" selection-end-line="100" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/InsertDocenti.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="374">
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Model/V_Docenti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="105" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="144" column="61" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#label#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#label#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#label#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#label#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#label#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#label#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css_myRandstad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="12578" column="9" lean-forward="true" selection-start-line="12578" selection-start-column="9" selection-end-line="12578" selection-end-column="9" />
         </state>
       </provider>
     </entry>
