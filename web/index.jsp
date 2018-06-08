@@ -94,7 +94,7 @@
                 <div class="col-xs-12 col-md-3">
                     <p><br>benvenuto! <br>compilando il sondaggio relativo al corso di [titolo corso]
                         saremo in grado di migliorarci:
-                        per questo il tuo feedback e' prezioso.</p>
+                        per questo il tuo feedback &egrave prezioso.</p>
                 </div>
                 <div class="col-xs-12 col-md-9">
                     <div class="row row-form-inline">
@@ -106,7 +106,7 @@
                           role="form">
                         <div class="row row-form-inline">
                             <div class="col-xs-12">
-                                <label for="Email">la tua valutazione rimarrà
+                                <label for="Email">la tua valutazione rimarr&agrave
                                     anonima</label>
                                 <input class="form-control" id="Email" name="Email"
                                        type="text"
@@ -142,7 +142,7 @@
                                        style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
                             </div>
                             <span class="f30 mandatory"></span>
-                            <span class="f14" style="position: relative; top: -8px;">acconsento al trattamento dei miei Dati personali per le finalità connesse alla gestione del rapporto contrattuale/formativo nonchè alla erogazione dei servizi</span>
+                            <span class="f14" style="position: relative; top: -8px;">acconsento al trattamento dei miei Dati personali per le finalit&agrave connesse alla gestione del rapporto contrattuale/formativo nonch&egrave alla erogazione dei servizi</span>
                         </label>
                         <%--FINE FLAG PER IL CONSENSO--%>
                         <div class="row row-form-inline">
