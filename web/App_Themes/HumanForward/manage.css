@@ -1,0 +1,1134 @@
+/* ==|== css idex ========================================================
+   index of stylesheet sections
+========================================================================== */
+/*
+    _base    
+    _edit and settings buttons
+    _overlay       
+    _HTML loader
+    _snippet management
+    _top search
+	_disable vertical centering in Snippet Manager
+	_internal anchor styling
+	_HTML loader (TMCE)
+    _Tags
+            
+*/
+
+/* ==|== _base ========================================================
+   styling applied to ''global' elements
+========================================================================== */
+
+body .cms-manage-bar-wrapper
+{
+    height: 55px;
+    overflow: hidden;
+}
+
+body .cms-manage-bar-logo, body .cms-manage-bar-user-label
+{
+    display: none;
+}
+
+body.admin-body .masthead
+{
+    top: 52px;
+}
+
+body.admin-body .main body a.buttonSubmit span, body .buttonSubmit span
+{
+    height: 25px;
+}
+
+body.admin-body .main
+{
+    padding-top: 52px;
+}
+
+@media only screen and (max-width: 360px)
+{
+    .buttonSubmit.logout.logout
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 650px)
+{
+    body .cms-manage-bar-logo, body .cms-manage-bar-user-label
+    {
+        display: block;
+    }
+}
+
+
+/* ==|== _edit and settings buttons ====================================
+   styling applied to ''global' elements
+========================================================================== */
+
+.manage-wrapper
+{
+    background: #def2d2;
+    display: block;
+    height: auto;
+    line-height: initial;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 10px;
+    position: static;
+    right: 10px;
+    top: 10px;
+    width: auto;
+    z-index: 100;
+}
+
+.three-column-bar .manage-wrapper
+{
+    margin: 0 0 10px;
+}
+
+.manage-hyperlink, .settings-hyperlink, .refresh-hyperlink
+{
+    border: 1px solid #03c;
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 0 3px;
+    text-indent: -9999px;
+    width: 20px;
+}
+
+.settings-hyperlink
+{
+    background: url("/Images/System/Icons/settings.gif") no-repeat scroll 2px 2px #fcf9ee;
+}
+
+.manage-hyperlink
+{
+    background: url("/Images/System/Icons/edit.gif") no-repeat scroll 1px 1px #fcf9ee;
+}
+
+.refresh-hyperlink
+{
+    background: url("/Images/System/Icons/refresh.gif") no-repeat scroll 1px 1px #fcf9ee;
+}
+
+.manage-wrapper select
+{
+    font-size: 16px;
+    height: 50px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+
+/* ==|== _overlay ======================================================
+   overlay styling used for 'Inbound Writer'
+========================================================================== */
+.overlay
+{
+    background: #000;
+    background: rgba(0,0,0,.6) !important;
+    display: block;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 55;
+}
+
+.overlay-content.snp-overlay-content
+{
+    background: #fff;
+    display: block;
+    margin-bottom: 20px;
+    left: 20px;
+    margin-left: 0;
+    overflow: hidden;
+    opacity: 1;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin: 0 auto;
+    width: auto;
+    z-index: 55;
+}
+
+.snp-overlay-content-inner
+{
+    background: #fff;
+}
+/*** ____XXX [XL] ***/
+@media only screen and (min-width: 1305px)
+{
+    .overlay-content.snp-overlay-content
+    {
+        max-width: 1305px;
+        width: 1305px;
+    }
+}
+
+/* ==|== _snippet management ===========================================
+   snippet management
+========================================================================== */
+.mng-info
+{
+    background: #ddf2cc;
+    color: #459900;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.mng-snp-info-inline
+{
+    color: #459900;
+    margin: .3333em 0 0 2em; /*5px/15px - 30px/15px*/
+    padding: 0;
+}
+
+.manage-snp-content-tabs
+{
+    border-bottom: 1px solid #e2e2e2;
+    height: 41px;
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+
+.manage-snp-content-tabs a, .manage-snp-content-tabs a:visited, .manage-snp-content-tabs a:active
+{
+    background: #eee;
+    border: 1px solid #e2e2e2;
+    border-bottom: solid 1px #e2e2e2;
+    color: #434345;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1px;
+    padding: 0 1em;
+}
+
+.manage-snp-content-tabs a.active:link, .manage-snp-content-tabs a.active:visited, .manage-snp-content-tabs a.active:active
+{
+    background: #fff;
+    border-bottom: solid 1px #fff;
+    color: #434345;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.manage-snp-order-list ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.manage-snp-order-list ul > div
+{
+    position: relative;
+}
+
+.manage-snp-order-list li
+{
+    margin-bottom: 1em; /*15px/15px*/
+    position: relative;
+    z-index: 100;
+}
+
+.manage-snp-order-list li .snp-mng-btns, .dragVisualContainer .snp-mng-btns
+{
+    top: 3px;
+    right: 6px;
+    position: absolute;
+    z-index: 999991;
+}
+
+.snp-mng-btns a.buttonSubmit:link, .snp-mng-btns a.buttonSubmit:visited, .snp-mng-btns a.buttonSubmit:active
+{
+    border: 0;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.snp-mng-btns a.buttonSubmit span
+{
+    line-height: 25px;
+}
+
+.buttonSwitchBackground
+{
+    text-align: center;
+    width: 120px;
+}
+
+.snp-mng-btns a.buttonSubmit span
+{
+    border: 0;
+}
+
+.snp-mng-btns a.buttonSubmit span.apply
+{
+    background: #999;
+}
+
+.snp-mng-btns a.buttonSubmit:hover span.apply
+{
+    background: #b0afaf;
+}
+
+.manage-snp-content-tabs li
+{
+    float: left;
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+
+.rl ul
+{
+    list-style-type: none;
+}
+
+.manage-snp-order-list
+{
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+
+.rlitem
+{
+    border: 2px dotted #e2e2e2;
+    border-top: 0;
+    padding: 0;
+}
+
+.snp-drag-handle
+{
+    background: #eee;
+    color: #434345;
+    cursor: move;
+    font-weight: 700;
+    height: 38px;
+    line-height: 36px;
+    padding: 0 1em 0 .5em;
+}
+
+.snp-drag-handle:hover
+{
+    background: #ececec;
+}
+
+.snp-drag-handle:before
+{
+    background: url(/Images/System/Backgrounds/move.png) no-repeat left top;
+    content: "";
+    float: left;
+    height: 23px;
+    margin: 7px 5px 0 0;
+    width: 23px;
+}
+
+.manage-snp-controls
+{
+    background: #ddf2cc;
+    clear: both;
+    margin: 15px 0; /*15px/15px*/
+    padding: 15px; /*15px/15px*/
+}
+
+.mng-snp-btns
+{
+    background: #eee;
+    overflow: hidden;
+    padding: 1em;
+    margin: -20px 0 0;
+}
+
+.manage-snp-btns-top
+{
+    float: right;
+    margin: 0 !important;
+}
+
+.manage-snp-controls select, .manage-snp-controls a
+{
+    float: left;
+}
+
+.manage-snp-controls select
+{
+    height: 1.7333em; /*26px/15px*/
+    line-height: 1.7333em; /*26px/15px*/
+    margin-top: .2666em; /*4px/15px*/
+}
+
+.manage-snp-btns
+{
+    margin-top: 1em; /*15px/15px*/
+}
+
+.manage-snp-btns a.buttonSubmit:link, .manage-snp-btns a.buttonSubmit:visited, .manage-snp-btns a.buttonSubmit:active
+{
+    margin: .2667em 1em 0 0; /*3px/15px - 15px/15px*/
+}
+
+body .RadDropDownList_Default
+{
+    font-family: Tahoma;
+}
+
+.mng-snp-list
+{
+    float: left;
+    height: 29px;
+}
+
+.RadDropDownList.mng-snp-list
+{
+    width: auto;
+}
+
+body .mng-snp-list .rddlInner
+{
+    background: #fff;
+    border-color: #bbb;
+    border-radius: 0;
+    cursor: pointer;
+    height: 29px !important;
+    padding: 0 10px;
+    width: 200px;
+}
+
+body .RadDropDownList_Default .rddlIcon, .RadDropDownList_Default .rddlActionButton
+{
+    background-color: #eee;
+    background-position: 3px -16px;
+}
+
+.mng-snp-list.RadDropDownList .rddlFakeInput
+{
+    height: 29px !important;
+    line-height: 27px !important;
+}
+
+body .RadDropDownList .rddlIcon, .RadDropDownList .rrbActionButton
+{
+    width: 28px;
+}
+
+
+.mng-snp-list.RadDropDownList .rddlIcon, .mng-snp-list.RadDropDownList .rrbActionButton
+{
+    height: 29px !important;
+}
+
+.rddlItem
+{
+    cursor: pointer;
+}
+
+.rddlItem.rddlItemTemplate
+{
+    border-bottom: 1px dotted #eee;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.rddlItem.rddlItemTemplate img
+{
+    margin-bottom: 5px !important;
+}
+
+.rddlItemHovered
+{
+    background: #f9f9f9 !important;
+}
+/*elements/styling for items when dragged*/
+.dragVisualContainer
+{
+    z-index: 105 !important;
+}
+
+.dragVisualContainer li
+{
+    list-style: none;
+}
+
+.snp-editor
+{
+    height: 1055px !important;
+    width: 100%;
+}
+
+.snp-editor iframe
+{
+    height: 900px !important;
+}
+
+/* ==|== _article selector  ===========================================
+   select aritle insights
+========================================================================== */
+
+.mng-manage-article
+{
+    background: #def2d2;
+    padding: 10px;
+}
+
+.mng-manage-article select
+{
+    font-size: 16px;
+    height: 50px;
+    line-height: 48px;
+    padding: 0 45px 0 16px;
+    width: 100%;
+}
+
+/* ==|== _insights =======================================================
+   insights
+========================================================================== */
+.kc-editor.box-inner
+{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.kc-editor-list > li
+{
+    padding: 20px;
+    position: relative;
+}
+
+.kc-editor label
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.kc-editor-list em
+{
+    left: 180px;
+    position: absolute;
+    top: 20px;
+}
+
+.kc-editor-list > li:nth-child(2n+1)
+{
+    background: #f7f5f0;
+}
+
+.wf360-content-page-editor-img
+{
+    margin-bottom: 10px;
+}
+
+.wf360-content-page-editor-img.spotlight
+{
+    height: 160px;
+    overflow: hidden;
+    width: 474px;
+}
+
+.wf360-content-page-editor-img.normal-article
+{
+    height: 133px;
+    overflow: hidden;
+    width: 236px;
+}
+
+.wf360-content-page-editor-img.spotlight img, .wf360-content-page-editor-img.normal-article img
+{
+    width: 100%;
+}
+
+.kc-editor-btns
+{
+    border-top: 1px solid #eee;
+    padding: 30px 0 0;
+}
+
+.kc-editor-btns .btn
+{
+    margin-right: 10px;
+}
+
+.kc-edit-tag-list > li, .insights-edit-tag-list > ul
+{
+    margin-bottom: 30px;
+}
+
+.kc-edit-tag-list > li
+{
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+}
+
+.kc-edit-tag-list > li:first-child
+{
+    border-top: 0;
+    padding-top: 0;
+}
+
+.kc-taglist
+{
+    margin-bottom: 10px;
+}
+
+.kc-taglist > li
+{
+    margin-bottom: 10px;
+}
+
+.kc-taglist label
+{
+    display: inline;
+    float: none;
+    margin-left: 5px;
+}
+
+.kc-taglist-hdr
+{
+    display: block;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.kc-taglist-add input
+{
+    margin-right: 10px;
+    width: 80%;
+}
+
+.kc-editor-video li
+{
+    margin-bottom: 10px;
+}
+
+.kc-editor-video label
+{
+    margin-bottom: 5px;
+}
+
+.kc-editor-element .downloadable-list
+{
+    margin: 0 0 10px;
+    padding-left: 15px;
+}
+
+.kc-editor-element .downloadable-list li
+{
+    margin-bottom: 15px;
+}
+
+.kc-editor-element .downloadable-list li input
+{
+    margin-bottom: 5px;
+}
+
+.kc-editor-element .downloadable-list-view-link
+{
+    border-right: 1px solid #2175d9;
+    padding-right: 4px;
+}
+
+
+/*SNIPPETS*/
+a.buttonSubmit.float-right:link, a.buttonSubmit.float-right:visited, a.buttonSubmit.float-right:active
+{
+    float: right;
+}
+
+.rlitem .snippet
+{
+    margin-bottom: 0;
+}
+
+.rlitem .snippet:before
+{
+    border-left: 1px solid #ccc;
+    color: #525252;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+
+.rlitem
+{
+    clear: both;
+}
+
+.snp-toggle
+{
+    background: #ccc;
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    margin: 3px 0 0 10px;
+    position: relative;
+    width: 25px;
+}
+
+.snp-toggle:hover
+{
+    background: #c1c1c1;
+}
+
+
+.snp-toggle:after
+{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #666;
+    content: "";
+    float: right;
+    height: 0;
+    left: 50%;
+    margin: -3px 0 0 -6px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.snp-toggle.active:after
+{
+    border-bottom: 6px solid #666;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid transparent;
+    top: 7px;
+}
+
+body .snippet.snp-remove-spacing
+{
+    margin: 0;
+    padding: 0;
+}
+
+.snp-hide .box-inner
+{
+    display: none;
+}
+
+.snp-open .box-inner
+{
+    display: block;
+}
+
+.toggle-all
+{
+    cursor: pointer;
+    margin-right: -9px;
+}
+
+.toggle-all-text
+{
+    float: left;
+}
+
+.toggle-all-arrow
+{
+    background: #56c000;
+    color: #fff;
+    float: right;
+    height: 25px;
+    margin-left: 10px;
+    position: relative;
+    width: 25px;
+}
+
+.toggle-all:hover .toggle-all-arrow
+{
+    background: #459900;
+}
+
+
+.toggle-all-arrow:after
+{
+    content: "";
+    height: 0;
+    left: 50%;
+    margin: -3px 0 0 -6px;
+    position: absolute;
+    width: 0;
+}
+
+.toggle-collapse-all .toggle-all-arrow:after
+{
+    border-top: 6px solid rgba(0, 0, 0, 0);
+    border-bottom: 6px solid #fff;
+    border-right: 6px solid rgba(0, 0, 0, 0);
+    border-left: 6px solid rgba(0, 0, 0, 0);
+    top: 6px;
+}
+
+.toggle-expand-all .toggle-all-arrow:after
+{
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid rgba(0, 0, 0, 0);
+    border-right: 6px solid rgba(0, 0, 0, 0);
+    border-left: 6px solid rgba(0, 0, 0, 0);
+    top: 13px;
+}
+/* ==|== _top search ====================================================
+   top search styling
+========================================================================== */
+.buttonSubmit
+{
+    border: 1px solid #7D7D7D;
+    float: left;
+    font-weight: 700;
+    margin: 3px 0 0 15px;
+    text-decoration: none;
+}
+
+.mng-top-search
+{
+    background: #def2d2;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.mng-top-search--edit
+{
+    cursor: pointer;
+    padding: 15px;
+}
+
+.mng-tgl-content
+{
+    clear: both;
+}
+
+
+.mng-top-search-section
+{
+    border-bottom: 1px solid #fff;
+    display: block;
+    overflow: hidden;
+    padding: 15px 0 35px;
+}
+
+.mng-top-search-section:first-child
+{
+    border-top: 1px solid #fff;
+}
+
+
+.mng-top-search-section-input
+{
+    float: right;
+    padding: 0 20px;
+    width: 50%;
+}
+
+.mng-top-search-section-preview
+{
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.mng-tgl-content
+{
+    padding: 15px;
+}
+
+.mng-top-search label, .mng-top-search-section-lbl
+{
+    display: block;
+    font-weight: 700;
+    margin: 0 0 .6667em; /*10px/15px*/
+}
+
+.mng-top-search-section-input label
+{
+    display: block;
+}
+
+.mng-top-search-radio input
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.mng-top-search-radio label
+{
+    float: left;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+
+
+.mng-tgl-content ul li:before
+{
+    content: "";
+    display: none;
+}
+
+.mng-btn-edit
+{
+    background: #ddf2cc;
+    cursor: pointer;
+    color: #434345;
+    display: block;
+    padding: 1em; /*15px/15px*/
+    text-decoration: none;
+}
+
+.mng-btn-edit:before
+{
+    background: url(/Images/System/Icons/edit.gif) no-repeat left top;
+    content: "";
+    float: left;
+    height: 1.0667em; /*16px/15px*/
+    margin: .2667em .6667em 0 0; /*4px/15px - 10px/15px */
+    width: 1.0667em; /*16px/15px*/
+}
+
+.mng-top-search--edit.active .toggle-all-arrow
+{
+    display: block;
+}
+
+.small-note
+{
+    font-size: 80%;
+}
+
+
+.toggle-all-arrow
+{
+    background: #56c000;
+    color: #fff;
+    display: none;
+    float: right;
+    height: 25px;
+    margin-left: 10px;
+    position: relative;
+    width: 25px;
+}
+
+.toggle-all-arrow:after
+{
+    border-color: #fff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 6px;
+    top: 13px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin: -3px 0 0 -6px;
+    position: absolute;
+    width: 0;
+}
+
+.mng-top-search--edit.active .toggle-all-arrow:after
+{
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff;
+    top: 6px;
+}
+
+.mng-top-search--btns
+{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .mng-top-search-section-input, .mng-top-search-section-preview
+    {
+        float: none;
+        padding: 0;
+        width: auto;
+    }
+
+    .mng-top-search-section-preview
+    {
+        margin-top: 20px;
+    }
+}
+
+/*_disable vertical centering in Snippet Manager*/
+
+.mng-snp-box-left .mng-snp-snippet .vertical-center
+{
+    top: auto;
+    transform: none;
+}
+
+.mng-snp-box-left .snippet .manage-wrapper
+{
+    margin-top: 0;
+}
+
+.mng-snp-box-left .snippet .match-height
+{
+    height: auto !important;
+}
+
+/* hide 'edit settings' hyperlink for dynamic snippets*/
+.snippet .manage-wrapper
+{
+    margin-top: 0;
+}
+
+.snippet .settings-hyperlink
+{
+    display: none;
+}
+/* disable negative margin on btn only snippet*/
+.mng-snp-snippet .snp-btn-only
+{
+    margin-top: 0 !important;
+}
+
+
+/* ==|== _internal anchor styling ========================================
+   specific styling for moderator/admin when logged in to compensate 
+   extra space on top of the page
+========================================================================== */
+.admin-body .on-page-anchor
+{
+    padding-top: 90px;
+}
+
+/* styling for large screen sizes [M] */
+@media only screen and (min-width: 501px)
+{
+    .admin-body .on-page-anchor
+    {
+        padding-top: 115px;
+    }
+}
+
+/* styling for large screen sizes [L] */
+@media only screen and (min-width: 801px)
+{
+    .admin-body .on-page-anchor
+    {
+        padding-top: 175px;
+    }
+}
+
+/* ==|== _HTML loader (TMCE) =============================================
+	styling for TMCE HTML Loader in Snippet Manager
+   
+========================================================================== */
+.mng-snp-snippet .snp-html-loader-tmce
+{
+    min-height: 100px;
+}
+
+.mng-snp-snippet .snp-html-loader-tmce [data-snp-html]:empty:before
+{
+    border: 2px dashed #e0e0e0;
+    content: url(/Images/System/snippets/snp-html-loader.png);
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ==|== _Tags ===========================================================	
+   
+========================================================================== */
+.bit_ui-navbar-item-tags
+{
+    display: none; /*temp disable tags*/
+}
+
+/* ==|== _old title + text snippet warning ===============================	
+   
+========================================================================== */
+.bit_ui-snippet-content-contents .snp-content-l-r
+{
+    position: relative;
+}
+
+.bit_ui-snippet-content-contents .snp-content-l-r .box-inner::before
+{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(255,0,0,.7);
+    bottom: 0;
+    color: #fff;
+    content: "please replace this snippet with snippet 'text + image + CTA'";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 26px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 2;
+}
+
+.bit_ui-snippet-new-version .snp-content-l-r .box-inner::before,
+.bit_ui-snippet-content-contents .snp-title-text-img-cta .box-inner::before,
+.bit_ui-snippet-content-contents .snp-text-video-cta .box-inner::before
+{
+    display: none;
+}
+
+/*show message when header snippet is not used in first position on the page*/
+.bit-ui-page-placeholder .bit_ui-snippet-content:not(:first-child) .snp-page-header,
+.bit-ui-page-placeholder .bit_ui-snippet-content:not(:first-child) .snp-header-illus
+{
+    border: 5px solid red;
+}
+
+/*don't display red border when snippet(s) just above have been removed and header is first snippet again*/
+.bit-ui-page-placeholder .snippet-removed + .bit_ui-snippet-content:not(:first-child) .snp-page-header,
+.bit-ui-page-placeholder .snippet-removed + .bit_ui-snippet-content:not(:first-child) .snp-header-illus
+{
+    border: none;
+}
+
+.bit-ui-page-placeholder .bit_ui-snippet-content:not(:first-child) .snp-page-header::before,
+.bit-ui-page-placeholder .bit_ui-snippet-content:not(:first-child) .snp-header-illus::before
+{
+    background: red;
+    color: #fff;
+    content: "Error: this snippet should only be used as first snippet on the page.";
+    display: block;
+    font-weight: 700;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+/*don't display error message when snippet(s) just above have been removed and header is first snippet again*/
+.bit-ui-page-placeholder .snippet-removed + .bit_ui-snippet-content:not(:first-child) .snp-page-header::before,
+.bit-ui-page-placeholder .snippet-removed + .bit_ui-snippet-content:not(:first-child) .snp-header-illus::before
+{
+    display: none;
+}
+
+.bit-ui-page-placeholder .bit_ui-snippet-content:not(:first-child) .bit_ui-snippet-content
+{
+    position: relative;
+}

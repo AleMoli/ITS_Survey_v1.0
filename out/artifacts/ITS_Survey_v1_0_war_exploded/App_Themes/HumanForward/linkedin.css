@@ -1,0 +1,26 @@
+
+/* ===== apply using LinkedIn button */
+.linkedin-profile-btn, .linkedin-profile-btn:link, .linkedin-profile-btn:visited
+{
+	background: #f5f5f5 url("/Images/system/jobsearch/linkedin.png") no-repeat top left;
+	border-color: #ebebeb #ebebeb #d4d4d4;
+	border-image: none;
+	border-radius: 2px 2px 2px 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: #636363;
+	display: inline-block;
+	font-family: "Lucida Grande","Segoe UI","Tahoma","Helvetica Neue","Helvetica",sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 7px 0 30px;
+	text-decoration: none;
+}
+
+.linkedin-profile-btn:hover
+{
+	background-color: #f0f0f0;
+	color: #333;
+}
