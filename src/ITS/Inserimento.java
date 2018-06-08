@@ -40,7 +40,7 @@ public class Inserimento extends HttpServlet {
         request.getSession().setAttribute("CheckConsenso", CheckConsenso);
         request.getSession().setAttribute("Email", Email);
 
-		response.sendRedirect("desktop.jsp?Email?CheckConsenso");
+		response.sendRedirect("questionario.jsp?Email?CheckConsenso");
 	}
 
 	/**
