@@ -81,7 +81,7 @@
     <div class="section page-tit">
         <div class="container">
             <div class="row">
-                <h1>questionario</h1>
+                <h1>grazie!</h1>
             </div>
         </div>
     </div>
@@ -91,13 +91,10 @@
             <span id="registered-user-id" class="hidden">a7f95ea4-5b6f-4603-8791-4f2bc47fa7cb</span>
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    Grazie! Hai fatto il primo passo per entrare in my Randstad.<br><br>
-                    <p>Adesso devi creare la tua password.<br>Controlla la tua <a href="https://mail.google.com/"
-                                                                                  target="_blank">posta</a> e segui le
-                        istruzioni riportate nella mail che ti abbiamo inviato.<br>Se non trovi la mail controlla nella
-                        cartella spam.</p>
-                    <p><a href="https://mail.google.com/" target="_blank"><img src="/Content/assets/mail-sent.png"></a>
-                    </p>
+                    Le tue valutazioni ci aiuteranno a migliorare ancora la nostra offarta formativa<br><br>
+                    <p>Continua a seguirci online: <br>scegli il tuo prossimo corso su <a href="https://www.randstad.it/competence/"
+                                                                                  target="_blank">Competence.</a>
+                    <%--<p><a href="https://mail.google.com/" target="_blank"><img src="/Content/assets/mail-sent.png"></a></p>--%>
                 </div>
             </div>
         </div>
