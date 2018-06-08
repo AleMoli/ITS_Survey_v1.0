@@ -12125,7 +12125,7 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     overflow-x: hidden;
-    margin-top: 175px;
+    margin-top: 88px;
 }
 
 a {
@@ -14581,7 +14581,7 @@ footer ul li a:hover {
     }
 
     .container {
-        padding: 50px 25px 40px 25px;
+        padding: 50px 15px 40px 15px;
     }
 
     .pl0, .pr0 {
@@ -17906,7 +17906,6 @@ form h3 {
     margin-right: 0px;
 }
 
-}
 
 /* segnalazione 153 - messaggi di errore su una riga separata, tra la label e il campo */
 .label-error {
