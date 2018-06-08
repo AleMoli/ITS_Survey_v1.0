@@ -53,13 +53,6 @@
                 </ul>
             </div>
         </div>
-        <div class="section page-tit">
-            <div class="container">
-                <div class="row">
-                    <h1>questionario</h1>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- Desktop -->
     <div class="visible-md visible-lg">
@@ -84,9 +77,14 @@
             </div>
         </nav>
     </div>
-
     <!-- End Navbar Mobile e Desktop -->
-
+        <div class="section page-tit">
+            <div class="container">
+                <div class="row">
+                    <h1>questionario</h1>
+                </div>
+            </div>
+        </div>
     <%--INIZIO TESTO--%>
     <%--INIZIO JS RADIO--%>
     <script>
@@ -133,7 +131,7 @@
     </script>
     <%--FINE JS RADIO--%>
     <div class="section page nobox">
-        <div class="container pt-0">
+        <div class="container pt-10">
             <form action="questionario.jsp" enctype="multipart/form-data" id="form-start" method="get"
                   role="form">
                 <%--INZIO DOMANDA 1--%>
