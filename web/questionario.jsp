@@ -225,6 +225,204 @@
                     </div>
                 </div>
                 <%--FINE DOMANDA 2--%>
+                <%--INIZIO DOMANDA 3--%>
+                <div class="row row-form-inline">
+                    <div class="col-xs-12">
+                        <label>Gli obiettivi di apprendimento sono stati raggiunti?</label>
+                        <input id="R2" name="R2" type="hidden" value="true" required>
+                        <div class="form-group-inline">
+                            <label class="control control--radio">
+                                <div onclick="Flag21()" id="Risposta21" class="iradio_square-blue"><input id="R2_1"
+                                                                                                          name="R2_1"
+                                                                                                          type="radio"
+                                                                                                          value="1"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                1
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag22()" id="Risposta22" class="iradio_square-blue"><input id="R2_2"
+                                                                                                          name="R2_2"
+                                                                                                          type="radio"
+                                                                                                          value="2"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                2
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag23()" id="Risposta23" class="iradio_square-blue"><input id="R2_3"
+                                                                                                          name="R2_3"
+                                                                                                          type="radio"
+                                                                                                          value="3"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                3
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag24()" id="Risposta24" class="iradio_square-blue"><input id="R2_4"
+                                                                                                          name="R2_4"
+                                                                                                          type="radio"
+                                                                                                          value="4"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                4
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag25()" id="Risposta25" class="iradio_square-blue"><input id="R2_5"
+                                                                                                          name="R2_5"
+                                                                                                          type="radio"
+                                                                                                          value="5"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                5
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <%--FINE DOMANDA 3--%>
+                <%--INIZIO DOMANDA 4--%>
+                <div class="row row-form-inline">
+                    <div class="col-xs-12">
+                        <label>Gli obiettivi di apprendimento sono stati raggiunti?</label>
+                        <input id="R3" name="R3" type="hidden" value="true" required>
+                        <div class="form-group-inline">
+                            <label class="control control--radio">
+                                <div onclick="Flag31()" id="Risposta31" class="iradio_square-blue"><input id="R3_1"
+                                                                                                          name="R3_1"
+                                                                                                          type="radio"
+                                                                                                          value="1"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                1
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag32()" id="Risposta32" class="iradio_square-blue"><input id="R3_2"
+                                                                                                          name="R3_2"
+                                                                                                          type="radio"
+                                                                                                          value="2"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                2
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag33()" id="Risposta33" class="iradio_square-blue"><input id="R3_3"
+                                                                                                          name="R3_3"
+                                                                                                          type="radio"
+                                                                                                          value="3"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                3
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag34()" id="Risposta34" class="iradio_square-blue"><input id="R3_4"
+                                                                                                          name="R3_4"
+                                                                                                          type="radio"
+                                                                                                          value="4"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                4
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag35()" id="Risposta35" class="iradio_square-blue"><input id="R3_5"
+                                                                                                          name="R3_5"
+                                                                                                          type="radio"
+                                                                                                          value="5"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                5
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <%--FINE DOMANDA 4--%>
+                <%--INIZIO DOMANDA 5--%>
+                <div class="row row-form-inline">
+                    <div class="col-xs-12">
+                        <label>Gli obiettivi di apprendimento sono stati raggiunti?</label>
+                        <input id="R4" name="R4" type="hidden" value="true" required>
+                        <div class="form-group-inline">
+                            <label class="control control--radio">
+                                <div onclick="Flag41()" id="Risposta41" class="iradio_square-blue"><input id="R4_1"
+                                                                                                          name="R4_1"
+                                                                                                          type="radio"
+                                                                                                          value="1"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                1
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag42()" id="Risposta42" class="iradio_square-blue"><input id="R4_2"
+                                                                                                          name="R4_2"
+                                                                                                          type="radio"
+                                                                                                          value="2"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                2
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag43()" id="Risposta43" class="iradio_square-blue"><input id="R4_3"
+                                                                                                          name="R4_3"
+                                                                                                          type="radio"
+                                                                                                          value="3"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                3
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag44()" id="Risposta44" class="iradio_square-blue"><input id="R4_4"
+                                                                                                          name="R4_4"
+                                                                                                          type="radio"
+                                                                                                          value="4"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                4
+                            </label>
+                            <label class="control control--radio">
+                                <div onclick="Flag45()" id="Risposta45" class="iradio_square-blue"><input id="R4_5"
+                                                                                                          name="R4_5"
+                                                                                                          type="radio"
+                                                                                                          value="5"
+                                                                                                          style="position: absolute; visibility: hidden;">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                </div>
+                                5
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <%--FINE DOMANDA 5--%>
             </form>
         </div>
     </div>
