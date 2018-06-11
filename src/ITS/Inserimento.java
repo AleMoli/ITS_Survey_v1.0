@@ -42,13 +42,17 @@ public class Inserimento extends HttpServlet {
         String CheckConsenso = request.getParameter("CheckConsenso");
         String Email = request.getParameter("Email");
 
-        QuestionarioImpl Dao = new QuestionarioImpl();
-        Dao.verificaQuestionario("Email");
+
+//        MANCA IL CONTROLLO CORRETTO SULLA LISTA MAIL
+        // -------------------------------------------------
+//        QuestionarioImpl Dao = new QuestionarioImpl();
+//        Dao.verificaQuestionario("Email");
+        // --------------------------------------------------
 
         request.getSession().setAttribute("CheckConsenso", CheckConsenso);
         request.getSession().setAttribute("Email", Email);
 
-        response.sendRedirect("questionario.jsp");
+        response.sendRedirect("questionario.jsp?Email="+Email+"?CheckConsenso="+CheckConsenso+"");
     }
 
     /**

@@ -3,12 +3,12 @@ package ITS.Dao;
 
 import ITS.Model.Questionario;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.util.List;
 
 public class QuestionarioImpl implements QuestionarioDao {
+
+
     @Override
     public List<Questionario> getAllQuestionario() {
         return null;
@@ -30,18 +30,18 @@ public class QuestionarioImpl implements QuestionarioDao {
     }
 
     @Override
-    public void verificaQuestionario(String Email) {
+    public Query verificaQuestionario(String Email) {
 
         String query = "SELECT count(email) FROM its_prova.elencomail WHERE email='" + Email + "'";
         EntityManager manager = this.connessione();
-        int rowCnt = (Integer) manager.createNativeQuery(query).getSingleResult();
+        Query rowCnt = manager.createNativeQuery(query);
 
-
+        return rowCnt;
     }
 
     private EntityManager connessione() {
 
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("its_persistance");
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("its_persistence");
         EntityManager manager = factory.createEntityManager();
         return manager;
     }

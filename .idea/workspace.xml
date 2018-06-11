@@ -10,9 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdcd73c-3839-4c59-b495-e9bc05bbbc40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ITS_Survey_v1_0_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ITS_Survey_v1_0_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITS/Inserimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Inserimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +68,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <file leaf-file-name="Inserimento.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ITS/Inserimento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="138">
+              <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionarioImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionarioDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -95,8 +126,8 @@
       <find>BODY</find>
       <find>body</find>
       <find>margin:</find>
-      <find />
-      <find />
+      <find>body {</find>
+      <find>navbar navbar-default navbar-fixed-top</find>
       <find>class</find>
       <find>document.getElementById</find>
       <find>scrolled</find>
@@ -107,11 +138,13 @@
       <find>.navbar-brand</find>
       <find>navigation</find>
       <find>m</find>
-      <find />
+      <find>.form-group-inline .control</find>
       <find>.form-group-inline</find>
       <find>320</find>
       <find>.container</find>
       <find>pt-10</find>
+      <find>provider</find>
+      <find>persistence</find>
     </findStrings>
     <replaceStrings>
       <replace>R3_1</replace>
@@ -168,12 +201,12 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/ITS/Dao/V_DocentiImpl.java" />
         <option value="$PROJECT_DIR$/src/ITS/Model/Questionario.java" />
+        <option value="$PROJECT_DIR$/web/questionario.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" />
         <option value="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" />
-        <option value="$PROJECT_DIR$/web/questionario.jsp" />
         <option value="$PROJECT_DIR$/src/ITS/Inserimento.java" />
-        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -194,10 +227,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="538" />
-    <option name="y" value="158" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="780" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,11 +245,6 @@
             <path>
               <item name="ITS_Survey_v1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITS_Survey_v1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITS_Survey_v1.0" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITS_Survey_v1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -612,7 +639,7 @@
       <workItem from="1528451718934" duration="16634000" />
       <workItem from="1528708552941" duration="14515000" />
       <workItem from="1528729705573" duration="438000" />
-      <workItem from="1528730997285" duration="1881000" />
+      <workItem from="1528730997285" duration="4204000" />
     </task>
     <task id="LOCAL-00001" summary="commentato inser docenti di un progetto dell'anno scorso">
       <created>1528455124275</created>
@@ -719,18 +746,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528731367214</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Alessandro, 11-06">
+      <created>1528732927101</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528732927101</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143839000" />
+    <option name="totallyTimeSpent" value="146162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50104165" side_tool="true" weight="0.19022317" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5020877" side_tool="true" weight="0.5488722" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -748,7 +782,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49895832" visible="true" weight="0.38788524" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791232" visible="true" weight="0.38682252" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.134375" />
@@ -820,7 +854,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1033,23 +1067,6 @@
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ITS/Model/Questionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -1123,16 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Inserimento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/thxpage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1170,8 +1177,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Inserimento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
