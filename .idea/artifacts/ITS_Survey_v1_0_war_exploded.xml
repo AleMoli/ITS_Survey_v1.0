@@ -6,6 +6,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ITS_Survey_v1.0" />
+          <element id="jpa-descriptors" facet="ITS_Survey_v1.0/jpa/JPA" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Hibernate 5.2.16-5.2.16" />

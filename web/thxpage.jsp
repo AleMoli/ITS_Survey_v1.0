@@ -24,7 +24,7 @@
         window.onscroll = function () {
             console.log(window.pageYOffset);
             var nav = document.getElementById('nav');
-            if (window.pageYOffset > 1) {
+            if (window.pageYOffset > 50) {
                 nav.classList.add("scrolled");
             } else {
                 nav.classList.remove("scrolled");

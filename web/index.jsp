@@ -24,7 +24,7 @@
         window.onscroll = function () {
             console.log(window.pageYOffset);
             var nav = document.getElementById('nav');
-            if (window.pageYOffset > 1) {
+            if (window.pageYOffset > 50) {
                 nav.classList.add("scrolled");
             } else {
                 nav.classList.remove("scrolled");
@@ -86,7 +86,13 @@
     </div>
 
     <!-- End Navbar Mobile e Desktop -->
-
+    <div class="section page-tit">
+        <div class="container">
+            <div class="row">
+                <h1>questionario</h1>
+            </div>
+        </div>
+    </div>
     <%--INIZIO TESTO--%>
     <div class="section page nobox">
         <div class="container pt-0">
@@ -102,7 +108,7 @@
                             <label class="hidden-xs"><%-- TESTO VISIBILE SOLO IN VERSIONE DESKTOP --%></label>
                         </div>
                     </div>
-                    <form action="questionario.jsp" enctype="multipart/form-data" id="form-start" method="get"
+                    <form action="Inserimento" enctype="multipart/form-data" id="form-start" method="get"
                           role="form">
                         <div class="row row-form-inline">
                             <div class="col-xs-12">

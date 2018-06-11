@@ -24,7 +24,7 @@
         window.onscroll = function () {
             console.log(window.pageYOffset);
             var nav = document.getElementById('nav');
-            if (window.pageYOffset > 1) {
+            if (window.pageYOffset > 50) {
                 nav.classList.add("scrolled");
             } else {
                 nav.classList.remove("scrolled");
@@ -91,7 +91,7 @@
     <%--FINE JS RADIO--%>
     <div class="section page nobox">
         <div class="container pt-10">
-            <form action="questionario.jsp" enctype="multipart/form-data" id="form-start" method="get"
+            <form action="inserimento" enctype="multipart/form-data" id="form-start" method="post"
                   role="form">
 
                 <%--DOMANDE DI VALUTAZIONE GENERALE--%>

@@ -6,16 +6,16 @@ version="2.0">
 
     <persistence-unit name="its_persistence" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>ITS.Model.Docenti</class>
+        <class>ITS.Model.Questionario</class>
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/its_prova" />
-            <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="admin" />
+            <property name="org.hibernate.jpa.driver" value="com.mysql.jdbc.Driver" />
+            <property name="org.hibernate.jpa.url" value="jdbc:mysql://127.0.0.1:3306/its_prova" />
+            <property name="org.hibernate.jpa.user" value="root" />
+            <property name="org.hibernate.jpa.password" value="admin" />
 
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
-            <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="org.hibernate.jpa.dialect" value="org.hibernate.jpa.dialect.MySQLDialect" />
+            <property name="org.hibernate.jpa.show_sql" value="true" />
+            <property name="org.hibernate.jpa.hbm2ddl.auto" value="create" />
         </properties>
     </persistence-unit>
 </persistence>
