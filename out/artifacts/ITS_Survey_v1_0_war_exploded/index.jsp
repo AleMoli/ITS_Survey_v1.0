@@ -20,17 +20,7 @@
 <body class="cbp-spmenu-push" id="top" style="">
 <div class="row-offcanvas row-offcanvas-right">
     <%--INIZIO JS SCROLLING NAVBAR--%>
-    <script>
-        window.onscroll = function () {
-            console.log(window.pageYOffset);
-            var nav = document.getElementById('nav');
-            if (window.pageYOffset > 50) {
-                nav.classList.add("scrolled");
-            } else {
-                nav.classList.remove("scrolled");
-            }
-        }
-    </script>
+    <script type="text/javascript" src="RadioRisposte.js"></script>
     <%--FINE JS SCROLLING NAVBAR--%>
     <!-- Navbar mobile e Desktop -->
 
@@ -51,13 +41,6 @@
                         <div class="icon--dot icon-support--blue icon--inline icon--middle"></div>
                         assistenza</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="section page-tit">
-            <div class="container">
-                <div class="row">
-                    <h1>questionario</h1>
-                </div>
             </div>
         </div>
     </div>

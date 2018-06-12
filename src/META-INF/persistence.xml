@@ -8,15 +8,35 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>ITS.Model.Questionario</class>
         <properties>
-            <property name="hibernate.connection.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/its_prova"/>
-            <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="admin"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/its_prova"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
 
-            <property name="hibernate.dialect" value="org.hibernate.jpa.dialect.MySQLDialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hbm2ddl.auto" value="create"/>
         </properties>
+
+
+
+        <!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+        <!--<class>ITS.Model.Questionario</class>-->
+
+        <!--<properties>-->
+            <!--<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />-->
+            <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/its_prova" />-->
+            <!--<property name="javax.persistence.jdbc.user" value="root" />-->
+            <!--<property name="javax.persistence.jdbc.password" value="admin" />-->
+
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
+            <!--<property name="eclipselink.create-ddl-jdbc-file-name"-->
+                      <!--value="createDDL_ddlGeneration.jdbc" />-->
+            <!--<property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.jdbc" />-->
+            <!--<property name="eclipselink.ddl-generation.output-mode"-->
+                      <!--value="both" />-->
+
+        <!--</properties>-->
     </persistence-unit>
 </persistence>
 

@@ -16,22 +16,13 @@
             transition: none !important;
         }
     </style>
+    <%--INIZIO JS RADIO--%>
+    <script type="text/javascript" src="RadioRisposte.js"></script>
+    <%--FINE JS RADIO--%>
 </head>
 <body class="cbp-spmenu-push" id="top" style="">
 <div class="row-offcanvas row-offcanvas-right">
-    <%--INIZIO JS SCROLLING NAVBAR--%>
-    <script>
-        window.onscroll = function () {
-            console.log(window.pageYOffset);
-            var nav = document.getElementById('nav');
-            if (window.pageYOffset > 50) {
-                nav.classList.add("scrolled");
-            } else {
-                nav.classList.remove("scrolled");
-            }
-        }
-    </script>
-    <%--FINE JS SCROLLING NAVBAR--%>
+
     <!-- Navbar mobile e Desktop -->
 
     <div class="visible-xs visible-sm navbar-responsive">
@@ -86,12 +77,10 @@
         </div>
     </div>
     <%--INIZIO TESTO--%>
-    <%--INIZIO JS RADIO--%>
-    <script type="text/javascript" src="RadioRisposte.js"></script>
-    <%--FINE JS RADIO--%>
+
     <div class="section page nobox">
         <div class="container pt-10">
-            <form action="inserimento" enctype="multipart/form-data" id="form-start" method="post"
+            <form action="QuestionarioIns" enctype="multipart/form-data" id="form-start" method="get"
                   role="form">
 
                 <%--DOMANDE DI VALUTAZIONE GENERALE--%>
@@ -100,11 +89,11 @@
                 <div class="row row-form-inline">
                     <div class="col-xs-12">
                         <label>In generale, ha trovato di suo gradimento il corso?</label>
-                        <input id="R0" name="R0" type="hidden" value="true" required>
+
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag01()" id="Risposta01" class="iradio_square-blue"><input id="R0_1"
-                                                                                                          name="R0_1"
+                                                                                                          name="R0"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -115,7 +104,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag02()" id="Risposta02" class="iradio_square-blue"><input id="R0_2"
-                                                                                                          name="R0_2"
+                                                                                                          name="R0"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -126,7 +115,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag03()" id="Risposta03" class="iradio_square-blue"><input id="R0_3"
-                                                                                                          name="R0_3"
+                                                                                                          name="R0"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -137,7 +126,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag04()" id="Risposta04" class="iradio_square-blue"><input id="R0_4"
-                                                                                                          name="R0_4"
+                                                                                                          name="R0"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -148,7 +137,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag05()" id="Risposta05" class="iradio_square-blue"><input id="R0_5"
-                                                                                                          name="R0_5"
+                                                                                                          name="R0"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -166,11 +155,11 @@
                 <div class="row row-form-inline">
                     <div class="col-xs-12">
                         <label>Gli obiettivi di apprendimento sono stati raggiunti?</label>
-                        <input id="R1" name="R1" type="hidden" value="true" required>
+                        <%--<input id="R1" name="R1" type="hidden" value="true" required>--%>
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag11()" id="Risposta11" class="iradio_square-blue"><input id="R1_1"
-                                                                                                          name="R1_1"
+                                                                                                          name="R1"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -181,7 +170,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag12()" id="Risposta12" class="iradio_square-blue"><input id="R1_2"
-                                                                                                          name="R1_2"
+                                                                                                          name="R1"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -192,7 +181,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag13()" id="Risposta13" class="iradio_square-blue"><input id="R1_3"
-                                                                                                          name="R1_3"
+                                                                                                          name="R1"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -203,7 +192,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag14()" id="Risposta14" class="iradio_square-blue"><input id="R1_4"
-                                                                                                          name="R1_4"
+                                                                                                          name="R1"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -214,7 +203,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag15()" id="Risposta15" class="iradio_square-blue"><input id="R1_5"
-                                                                                                          name="R1_5"
+                                                                                                          name="R1"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -233,11 +222,11 @@
                     <div class="col-xs-12">
                         <label>Quanto considera utile questo corso per l'accrescimento delle sue competenze
                             professionali?</label>
-                        <input id="R2" name="R2" type="hidden" value="true" required>
+
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag21()" id="Risposta21" class="iradio_square-blue"><input id="R2_1"
-                                                                                                          name="R2_1"
+                                                                                                          name="R2"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -248,7 +237,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag22()" id="Risposta22" class="iradio_square-blue"><input id="R2_2"
-                                                                                                          name="R2_2"
+                                                                                                          name="R2"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -259,7 +248,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag23()" id="Risposta23" class="iradio_square-blue"><input id="R2_3"
-                                                                                                          name="R2_3"
+                                                                                                          name="R2"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -270,7 +259,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag24()" id="Risposta24" class="iradio_square-blue"><input id="R2_4"
-                                                                                                          name="R2_4"
+                                                                                                          name="R2"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -281,7 +270,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag25()" id="Risposta25" class="iradio_square-blue"><input id="R2_5"
-                                                                                                          name="R2_5"
+                                                                                                          name="R2"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -299,11 +288,11 @@
                 <div class="row row-form-inline">
                     <div class="col-xs-12">
                         <label>Quanto il corso ha rispecchiato le sue aspettative?</label>
-                        <input id="R3" name="R3" type="hidden" value="true" required>
+
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag31()" id="Risposta31" class="iradio_square-blue"><input id="R3_1"
-                                                                                                          name="R3_1"
+                                                                                                          name="R3"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -314,7 +303,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag32()" id="Risposta32" class="iradio_square-blue"><input id="R3_2"
-                                                                                                          name="R3_2"
+                                                                                                          name="R3"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -325,7 +314,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag33()" id="Risposta33" class="iradio_square-blue"><input id="R3_3"
-                                                                                                          name="R3_3"
+                                                                                                          name="R3"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -336,7 +325,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag34()" id="Risposta34" class="iradio_square-blue"><input id="R3_4"
-                                                                                                          name="R3_4"
+                                                                                                          name="R3"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -347,7 +336,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag35()" id="Risposta35" class="iradio_square-blue"><input id="R3_5"
-                                                                                                          name="R3_5"
+                                                                                                          name="R3"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -368,11 +357,11 @@
                 <div class="row row-form-inline">
                     <div class="col-xs-12">
                         <label>Come valuta in generale l'organizzazione del corso?</label>
-                        <input id="R4" name="R4" type="hidden" value="true" required>
+
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag41()" id="Risposta41" class="iradio_square-blue"><input id="R4_1"
-                                                                                                          name="R4_1"
+                                                                                                          name="R4"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -383,7 +372,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag42()" id="Risposta42" class="iradio_square-blue"><input id="R4_2"
-                                                                                                          name="R4_2"
+                                                                                                          name="R4"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -394,7 +383,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag43()" id="Risposta43" class="iradio_square-blue"><input id="R4_3"
-                                                                                                          name="R4_3"
+                                                                                                          name="R4"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -405,7 +394,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag44()" id="Risposta44" class="iradio_square-blue"><input id="R4_4"
-                                                                                                          name="R4_4"
+                                                                                                          name="R4"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -416,7 +405,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag45()" id="Risposta45" class="iradio_square-blue"><input id="R4_5"
-                                                                                                          name="R4_5"
+                                                                                                          name="R4"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -434,11 +423,11 @@
                 <div class="row row-form-inline">
                     <div class="col-xs-12">
                         <label>Come valuta in generale l'organizzazione del corso?</label>
-                        <input id="R5" name="R5" type="hidden" value="true" required>
+
                         <div class="form-group-inline">
                             <label class="control control--radio">
                                 <div onclick="Flag51()" id="Risposta51" class="iradio_square-blue"><input id="R5_1"
-                                                                                                          name="R5_1"
+                                                                                                          name="R5"
                                                                                                           type="radio"
                                                                                                           value="1"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -449,7 +438,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag52()" id="Risposta52" class="iradio_square-blue"><input id="R5_2"
-                                                                                                          name="R5_2"
+                                                                                                          name="R5"
                                                                                                           type="radio"
                                                                                                           value="2"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -460,7 +449,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag53()" id="Risposta53" class="iradio_square-blue"><input id="R5_3"
-                                                                                                          name="R5_3"
+                                                                                                          name="R5"
                                                                                                           type="radio"
                                                                                                           value="3"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -471,7 +460,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag54()" id="Risposta54" class="iradio_square-blue"><input id="R5_4"
-                                                                                                          name="R5_4"
+                                                                                                          name="R5"
                                                                                                           type="radio"
                                                                                                           value="4"
                                                                                                           style="position: absolute; visibility: hidden;">
@@ -482,7 +471,7 @@
                             </label>
                             <label class="control control--radio">
                                 <div onclick="Flag55()" id="Risposta55" class="iradio_square-blue"><input id="R5_5"
-                                                                                                          name="R5_5"
+                                                                                                          name="R5"
                                                                                                           type="radio"
                                                                                                           value="5"
                                                                                                           style="position: absolute; visibility: hidden;">

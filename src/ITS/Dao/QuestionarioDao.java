@@ -15,7 +15,7 @@ public interface QuestionarioDao {
 
     void deleteQuestionario(Questionario questionario);
 
-    Query verificaQuestionario(String Email);
+//    Query verificaQuestionario(String Email);
 
-    void createQuestionario(Integer R0, Integer R1, Integer R2, Integer R3, Integer R4, Integer R5, Integer R6, Integer R7, Integer R8, Integer R9, Integer R10, Integer R11, Integer R12, String R13, String R14);
+    void createQuestionario(String R0, String R1, String R2, String R3, String R4, String R5, String R6, String R7, String R8, String R9, String R10, String R11, String R12, String R13, String R14);
 }
