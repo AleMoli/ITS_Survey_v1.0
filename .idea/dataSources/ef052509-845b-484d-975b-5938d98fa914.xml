@@ -909,7 +909,7 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="228" parent="3" name="elencomail"/>
+    <table id="228" parent="3" name="elencoemail"/>
     <table id="229" parent="3" name="questionario"/>
     <column id="230" parent="228" name="ID">
       <Position>1</Position>
@@ -918,116 +918,130 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="231" parent="228" name="email">
+    <column id="231" parent="228" name="Email">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="232" parent="228" name="PRIMARY">
+    <column id="232" parent="228" name="Privacy">
+      <Position>3</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="233" parent="228" name="DataIns">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="234" parent="228" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="233" parent="229" name="ID">
+    <column id="235" parent="229" name="ID">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="229" name="R0">
+    <column id="236" parent="229" name="R1_Generale">
       <Position>2</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="235" parent="229" name="R1">
+    <column id="237" parent="229" name="R2_Obiettivi">
       <Position>3</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="236" parent="229" name="R2">
+    <column id="238" parent="229" name="R3_Utile">
       <Position>4</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="237" parent="229" name="R3">
+    <column id="239" parent="229" name="R4_Rispecchiato">
       <Position>5</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="238" parent="229" name="R4">
+    <column id="240" parent="229" name="R5_VGenerale">
       <Position>6</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="239" parent="229" name="R5">
+    <column id="241" parent="229" name="R6_VEfficacia">
       <Position>7</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="240" parent="229" name="R6">
+    <column id="242" parent="229" name="R7_Generale_Doc">
       <Position>8</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="241" parent="229" name="R7">
+    <column id="243" parent="229" name="R8_1_Esposizione_Doc">
       <Position>9</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="242" parent="229" name="R8">
+    <column id="244" parent="229" name="R8_2_Competente_Doc">
       <Position>10</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="243" parent="229" name="R9">
+    <column id="245" parent="229" name="R8_3_Disponibile_Doc">
       <Position>11</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="244" parent="229" name="R10">
+    <column id="246" parent="229" name="R8_4_Coinvolgente_Doc">
       <Position>12</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="245" parent="229" name="R11">
+    <column id="247" parent="229" name="R9_Metodo_Doc">
       <Position>13</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="246" parent="229" name="R12">
+    <column id="248" parent="229" name="R10_Corso">
       <Position>14</Position>
       <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="247" parent="229" name="R13">
+    <column id="249" parent="229" name="R11_Interesse">
       <Position>15</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="248" parent="229" name="R14">
+    <column id="250" parent="229" name="R12_Consiglieresti">
       <Position>16</Position>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>varchar(5)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="249" parent="229" name="PRIMARY">
+    <key id="251" parent="229" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>

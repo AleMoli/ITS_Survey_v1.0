@@ -5,93 +5,31 @@
       <artifact name="ITS_Survey_v1.0:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" line="34" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdcd73c-3839-4c59-b495-e9bc05bbbc40" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/eclipselink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ITS/QuestionarioIns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ITS_Survey_v1_0_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ITS_Survey_v1_0_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ITS/Controllo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ITS/Model/ElencoEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/privacy.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7889e64b-e987-4c7c-a8ab-c41eac1cc8cf.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef052509-845b-484d-975b-5938d98fa914.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef052509-845b-484d-975b-5938d98fa914.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITS_Survey_v1.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITS_Survey_v1.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/animations.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/google.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/hubspot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/jobsearch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/knowledge-center.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/linkedin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/manage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/misc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/modules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/office-locator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/slidebars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/snippets-hf.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/z_critical_overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/z_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/HumanForward/zz_print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/z_Custom/jobsearch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/App_Themes/z_Custom/modules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/CSS_PROVA.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/InsertDocenti.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/css_myRandstad.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/css_myRandstad.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/questionario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/questionario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/randstad.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/trovajava.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/DocentiDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/DocentiImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ITS/Inserimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Inserimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Model/Docenti.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ITS/Model/Questionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Model/Questionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/animations.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/google.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/hubspot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/jobsearch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/knowledge-center.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/linkedin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/manage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/misc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/modules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/office-locator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/slidebars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/snippets-hf.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/z_critical_overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/z_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/HumanForward/zz_print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/z_Custom/jobsearch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/App_Themes/z_Custom/modules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS_PROVA.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/InsertDocenti.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITS/QuestionarioIns.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/RadioRisposte.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/RadioRisposte.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css_myRandstad.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css_myRandstad.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/questionario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/questionario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/randstad.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/thxpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/thxpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/trovajava.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +71,7 @@
         <item name="its_prova@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="its_prova: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="elencomail: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="elencoemail: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -147,14 +85,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuestionarioIns.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ITS/QuestionarioIns.java">
+      <file leaf-file-name="Inserimento.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ITS/Inserimento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+            <state relative-caret-position="1547">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controllo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ITS/Controllo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="137" column="63" lean-forward="true" selection-start-line="137" selection-start-column="63" selection-end-line="137" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privacy.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/privacy.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1706">
+              <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionario.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -168,16 +145,13 @@
         <option value="AnnotationType" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>option2</find>
-      <find>option3</find>
-      <find>option4</find>
       <find>option5</find>
       <find>f30</find>
       <find>mandatory</find>
@@ -205,6 +179,9 @@
       <find>persistence</find>
       <find>1320px</find>
       <find>user</find>
+      <find>R0</find>
+      <find>h1</find>
+      <find>.section.page-tit h1</find>
     </findStrings>
     <replaceStrings>
       <replace>R3_1</replace>
@@ -256,20 +233,26 @@
         <option value="$PROJECT_DIR$/src/ITS/Dao/DocentiDao.java" />
         <option value="$PROJECT_DIR$/src/ITS/Dao/V_DocentiImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/ITS/Inserimento.java" />
-        <option value="$PROJECT_DIR$/web/RadioRisposte.js" />
-        <option value="$PROJECT_DIR$/web/thxpage.jsp" />
-        <option value="$PROJECT_DIR$/web/css_myRandstad.css" />
-        <option value="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/provaradio.jsp" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/web/InsertDocenti.jsp" />
-        <option value="$PROJECT_DIR$/src/ITS/Model/Questionario.java" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/ITS/Model/Questionario.java" />
+        <option value="$PROJECT_DIR$/web/RadioRisposte.js" />
+        <option value="ef052509-845b-484d-975b-5938d98fa914/schema/its_prova/table/elencomail.sql" />
+        <option value="$PROJECT_DIR$/src/ITS/Model/ElencoEmail.java" />
+        <option value="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailDao.java" />
         <option value="$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java" />
+        <option value="$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java" />
+        <option value="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java" />
         <option value="$PROJECT_DIR$/src/ITS/QuestionarioIns.java" />
+        <option value="$PROJECT_DIR$/src/ITS/Inserimento.java" />
+        <option value="$PROJECT_DIR$/src/ITS/Controllo.java" />
+        <option value="$PROJECT_DIR$/web/thxpage.jsp" />
+        <option value="$PROJECT_DIR$/web/css_myRandstad.css" />
         <option value="$PROJECT_DIR$/web/questionario.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/privacy.jsp" />
       </list>
     </option>
   </component>
@@ -290,9 +273,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1040" />
+    <option name="x" value="757" />
+    <option name="width" value="1170" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,7 +341,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +351,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQLLocal" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/com.mysql.jdbc_5.1.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITS_OLD" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -378,23 +361,24 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ITS.Dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\web" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ITS" />
-      <recent name="ITS.Dao" />
-      <recent name="ITS.Model" />
-      <recent name="tabelle" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\src" />
       <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\web" />
       <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\web\img" />
       <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\web\content\assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\src\ITS\Dao" />
+      <recent name="C:\Users\ext_alessandro.molin\Documents\ITS_Survey_v1.0\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ITS.Dao" />
+      <recent name="ITS.Model" />
+      <recent name="ITS" />
+      <recent name="tabelle" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ITS.Dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -714,7 +698,10 @@
       <workItem from="1528729705573" duration="438000" />
       <workItem from="1528730997285" duration="4279000" />
       <workItem from="1528789802338" duration="3228000" />
-      <workItem from="1528796724592" duration="24131000" />
+      <workItem from="1528796724592" duration="24307000" />
+      <workItem from="1528876526273" duration="26441000" />
+      <workItem from="1528966205528" duration="1955000" />
+      <workItem from="1528987685112" duration="5281000" />
     </task>
     <task id="LOCAL-00001" summary="commentato inser docenti di un progetto dell'anno scorso">
       <created>1528455124275</created>
@@ -835,18 +822,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528735307112</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Alessandro, 11-06">
+      <created>1528822026862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528822026877</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173596000" />
+    <option name="totallyTimeSpent" value="207449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5026042" side_tool="true" weight="0.63761955" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.503125" side_tool="true" weight="0.40382573" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -863,23 +856,23 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49739584" visible="true" weight="0.37513283" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.496875" visible="true" weight="0.41339" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2171875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20677084" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49947917" weight="0.32731137" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32943678" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32943678" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49947917" weight="0.32412326" />
+      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32943678" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3290938" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3290938" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -936,68 +929,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tabelle/Docenti.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/787bb321-a48b-43a7-87fc-86f9024f725d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef052509-845b-484d-975b-5938d98fa914/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/Repository.java" />
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/animations.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="279" column="3" lean-forward="true" selection-start-line="279" selection-start-column="3" selection-end-line="279" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/misc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="281" selection-start-line="281" selection-end-line="292" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/z_Custom/modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css.myrandstad" />
-    <entry file="file://$PROJECT_DIR$/web/indexx.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/css.myrandstad.css" />
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="378" lean-forward="true" selection-start-line="378" selection-end-line="379" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/zz_print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10846">
-          <caret line="638" column="5" selection-start-line="638" selection-start-column="5" selection-end-line="638" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/modules.css" />
+    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/zz_print.css" />
+    <entry file="file://$PROJECT_DIR$/web/App_Themes/HumanForward/base.css" />
     <entry file="file://$PROJECT_DIR$/web/prova.jsp" />
     <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1006,13 +944,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/CSS_PROVA.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4573">
-          <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS_PROVA.css" />
     <entry file="file://$PROJECT_DIR$/web/css_randstad_nostro.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1023,30 +955,12 @@
     <entry file="file://$PROJECT_DIR$/web/img/randstad_logo_white.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/trovajava.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4483" column="20" selection-start-line="4483" selection-start-column="20" selection-end-line="4483" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/trovajava.jsp" />
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Model/Docenti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/DocentiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="50" lean-forward="true" selection-start-column="2" selection-end-line="54" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Model/Docenti.java" />
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/DocentiImpl.java" />
     <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/readme.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1054,13 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1006">
           <caret line="173" column="61" selection-start-line="173" selection-start-column="50" selection-end-line="173" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css_myRandstad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="355" column="29" selection-start-line="355" selection-start-column="29" selection-end-line="355" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1078,13 +985,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/DocentiDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="true" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/DocentiDao.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.xml.bind/javax/xml/bind/JAXBException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1092,20 +993,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/provaradio.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="88" column="66" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/provaradio.jsp" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1113,36 +1001,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/InsertDocenti.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/randstad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/web/InsertDocenti.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/randstad.jsp" />
     <entry file="file://$PROJECT_DIR$/ITS_Survey_v1.0.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.naming/javax/naming/spi/NamingManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1154,6 +1017,135 @@
     <entry file="file://$PROJECT_DIR$/web/bundles/jquery">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4184" column="4" selection-start-line="4184" selection-start-column="4" selection-end-line="4184" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Model/Questionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/impl/XMLScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="942" selection-start-line="942" selection-end-line="942" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/impl/XMLErrorReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ef052509-845b-484d-975b-5938d98fa914/schema/its_prova/table/elencomail.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/RadioRisposte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4226">
+          <caret line="511" column="20" lean-forward="true" selection-start-line="511" selection-start-column="20" selection-end-line="511" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/bootstrap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Model/ElencoEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/ElencoEmailDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/thxpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css_myRandstad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14079" column="20" selection-start-line="14079" selection-end-line="14079" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1161,82 +1153,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/thxpage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Dao/QuestionarioImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/RadioRisposte.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="254" column="15" selection-start-line="254" selection-start-column="15" selection-end-line="254" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ITS/Inserimento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        <state relative-caret-position="1547">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/Model/Questionario.java">
+    <entry file="file://$PROJECT_DIR$/src/ITS/Controllo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="901">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/questionario.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITS/QuestionarioIns.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="137" column="63" lean-forward="true" selection-start-line="137" selection-start-column="63" selection-end-line="137" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/privacy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1706">
+          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -14081,6 +14081,9 @@ li.disabled {
     font-size: 80px;
     padding: 50px 0 90px;
 }
+.section.page-tit h2 {
+    padding: 50px 0 90px;
+}
 
 .box {
     padding: 25px;
@@ -14972,6 +14975,10 @@ footer ul li a:hover {
         padding: 0;
         margin: 0 0 10px;
     }
+    .section.page-tit h2 {
+        padding: 0;
+        margin: 0 0 10px;
+    }
 
     .section.page-tit .welcomeback {
         text-align: left;
@@ -15694,6 +15701,9 @@ footer ul li a:hover {
         font-size: 50px;
         padding: 60px 50px 90px;
     }
+    .section.page-tit h2 {
+        padding: 60px 50px 90px;
+    }
 
     .section.page-tit .welcomeback {
         margin: 0;
@@ -15969,6 +15979,9 @@ footer ul li a:hover {
     }
 
     .section.page-tit h1 {
+        padding: 60px 40px 90px;
+    }
+    .section.page-tit h2 {
         padding: 60px 40px 90px;
     }
 

@@ -1,3 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--controllare in url il parametro P--%>
+<%--non valorizzato -> errore corso--%>
+<%--se è valorizzato Find per il corso--%>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -72,7 +77,7 @@
     <div class="section page-tit">
         <div class="container">
             <div class="row">
-                <h1>questionario</h1>
+                <h2>[Nome Corso]</h2>
             </div>
         </div>
     </div>
@@ -81,8 +86,7 @@
         <div class="container pt-0">
             <div class="row row-col-full">
                 <div class="col-xs-12 col-md-3">
-                    <p><br>benvenuto! <br>compilando il sondaggio relativo al corso di [titolo corso]
-                        saremo in grado di migliorarci:
+                    <p><br>benvenuto! <br>compilando il sondaggio saremo in grado di migliorarci:
                         per questo il tuo feedback &egrave prezioso.</p>
                 </div>
                 <div class="col-xs-12 col-md-9">
@@ -91,7 +95,7 @@
                             <label class="hidden-xs"><%-- TESTO VISIBILE SOLO IN VERSIONE DESKTOP --%></label>
                         </div>
                     </div>
-                    <form action="Inserimento" enctype="multipart/form-data" id="form-start" method="get"
+                    <form action="Controllo" id="form-start" method="post"
                           role="form">
                         <div class="row row-form-inline">
                             <div class="col-xs-12">
@@ -99,6 +103,7 @@
                                     anonima</label>
                                 <input class="form-control" id="Email" name="Email"
                                        type="text"
+                                       placeholder="Inserisci la tua email"
                                        pattern="^[a-zA-Z0-9.!#$%&amp;â€™*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
                                        required>
                             </div>
@@ -121,17 +126,17 @@
                         </script>
                         <%--FINE JS CONSENSO PRIVACY--%>
                         <%--INIZIO FLAG IL CONSENSO--%>
-                        <label for="CheckConsenso" onmouseover="HoverFlag()"
+                        <label for="Privacy" onmouseover="HoverFlag()"
                                onmouseout="NoHoverFlag()" id="LabelPrivacy" class="control control--checkbox">
                             <div onclick="ClickFlag()" id="DivPrivacy" class="icheckbox_square-blue">
-                                <input id="CheckConsenso"
-                                       name="CheckConsenso" type="checkbox"
+                                <input id="Privacy"
+                                       name="Privacy" type="checkbox"
                                        value="true" class="ea-triggers-bound"
                                        required
                                        style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
                             </div>
                             <span class="f30 mandatory"></span>
-                            <span class="f14" style="position: relative; top: -8px;">acconsento al trattamento dei miei Dati personali per le finalit&agrave connesse alla gestione del rapporto contrattuale/formativo nonch&egrave alla erogazione dei servizi</span>
+                            <span class="f14" style="position: relative; top: -8px;">Ho preso visione dell'<a href="privacy.jsp" target="_blank" data-wa-ca="id4">Informativa Privacy</a> ed acconsento al trattamento dei miei Dati personali</span>
                         </label>
                         <%--FINE FLAG PER IL CONSENSO--%>
                         <div class="row row-form-inline">

@@ -9,35 +9,35 @@ public class Questionario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer ID;
     @Column
-    String R0;
+    String R1_Generale;
     @Column
-    String R1;
+    String R2_Obiettivi;
     @Column
-    String R2;
+    String R3_Utile;
     @Column
-    String R3;
+    String R4_Rispecchiato;
     @Column
-    String R4;
+    String R5_VGenerale;
     @Column
-    String R5;
+    String R6_VEfficacia;
     @Column
-    String R6;
+    String R7_Generale_Doc;
     @Column
-    String R7;
+    String R8_1_Esposizione_Doc;
     @Column
-    String R8;
+    String R8_2_Competente_Doc;
     @Column
-    String R9;
+    String R8_3_Disponibile_Doc;
     @Column
-    String R10;
+    String R8_4_Coinvolgente_Doc;
     @Column
-    String R11;
+    String R9_Metodo_Doc;
     @Column
-    String R12;
+    String R10_Corso;
     @Column
-    String R13;
+    String R11_Interesse;
     @Column
-    String R14;
+    String R12_Consiglieresti;
 
     public Integer getID() {
         return ID;
@@ -47,123 +47,123 @@ public class Questionario {
         this.ID = ID;
     }
 
-    public String getR0() {
-        return R0;
+    public String getR1_Generale() {
+        return R1_Generale;
     }
 
-    public void setR0(String R0) {
-        this.R0 = R0;
+    public void setR1_Generale(String r1_Generale) {
+        R1_Generale = r1_Generale;
     }
 
-    public String getR1() {
-        return R1;
+    public String getR2_Obiettivi() {
+        return R2_Obiettivi;
     }
 
-    public void setR1(String R1) {
-        this.R1 = R1;
+    public void setR2_Obiettivi(String r2_Obiettivi) {
+        R2_Obiettivi = r2_Obiettivi;
     }
 
-    public String getR2() {
-        return R2;
+    public String getR3_Utile() {
+        return R3_Utile;
     }
 
-    public void setR2(String R2) {
-        this.R2 = R2;
+    public void setR3_Utile(String r3_Utile) {
+        R3_Utile = r3_Utile;
     }
 
-    public String getR3() {
-        return R3;
+    public String getR4_Rispecchiato() {
+        return R4_Rispecchiato;
     }
 
-    public void setR3(String R3) {
-        this.R3 = R3;
+    public void setR4_Rispecchiato(String r4_Rispecchiato) {
+        R4_Rispecchiato = r4_Rispecchiato;
     }
 
-    public String getR4() {
-        return R4;
+    public String getR5_VGenerale() {
+        return R5_VGenerale;
     }
 
-    public void setR4(String R4) {
-        this.R4 = R4;
+    public void setR5_VGenerale(String r5_VGenerale) {
+        R5_VGenerale = r5_VGenerale;
     }
 
-    public String getR5() {
-        return R5;
+    public String getR6_VEfficacia() {
+        return R6_VEfficacia;
     }
 
-    public void setR5(String R5) {
-        this.R5 = R5;
+    public void setR6_VEfficacia(String r6_VEfficacia) {
+        R6_VEfficacia = r6_VEfficacia;
     }
 
-    public String getR6() {
-        return R6;
+    public String getR7_Generale_Doc() {
+        return R7_Generale_Doc;
     }
 
-    public void setR6(String R6) {
-        this.R6 = R6;
+    public void setR7_Generale_Doc(String r7_Generale_Doc) {
+        R7_Generale_Doc = r7_Generale_Doc;
     }
 
-    public String getR7() {
-        return R7;
+    public String getR8_1_Esposizione_Doc() {
+        return R8_1_Esposizione_Doc;
     }
 
-    public void setR7(String R7) {
-        this.R7 = R7;
+    public void setR8_1_Esposizione_Doc(String r8_1_Esposizione_Doc) {
+        R8_1_Esposizione_Doc = r8_1_Esposizione_Doc;
     }
 
-    public String getR8() {
-        return R8;
+    public String getR8_2_Competente_Doc() {
+        return R8_2_Competente_Doc;
     }
 
-    public void setR8(String R8) {
-        this.R8 = R8;
+    public void setR8_2_Competente_Doc(String r8_2_Competente_Doc) {
+        R8_2_Competente_Doc = r8_2_Competente_Doc;
     }
 
-    public String getR9() {
-        return R9;
+    public String getR8_3_Disponibile_Doc() {
+        return R8_3_Disponibile_Doc;
     }
 
-    public void setR9(String R9) {
-        this.R9 = R9;
+    public void setR8_3_Disponibile_Doc(String r8_3_Disponibile_Doc) {
+        R8_3_Disponibile_Doc = r8_3_Disponibile_Doc;
     }
 
-    public String getR10() {
-        return R10;
+    public String getR8_4_Coinvolgente_Doc() {
+        return R8_4_Coinvolgente_Doc;
     }
 
-    public void setR10(String R10) {
-        this.R10 = R10;
+    public void setR8_4_Coinvolgente_Doc(String r8_4_Coinvolgente_Doc) {
+        R8_4_Coinvolgente_Doc = r8_4_Coinvolgente_Doc;
     }
 
-    public String getR11() {
-        return R11;
+    public String getR9_Metodo_Doc() {
+        return R9_Metodo_Doc;
     }
 
-    public void setR11(String R11) {
-        this.R11 = R11;
+    public void setR9_Metodo_Doc(String r9_Metodo_Doc) {
+        R9_Metodo_Doc = r9_Metodo_Doc;
     }
 
-    public String getR12() {
-        return R12;
+    public String getR10_Corso() {
+        return R10_Corso;
     }
 
-    public void setR12(String R12) {
-        this.R12 = R12;
+    public void setR10_Corso(String r10_Corso) {
+        R10_Corso = r10_Corso;
     }
 
-    public String getR13() {
-        return R13;
+    public String getR11_Interesse() {
+        return R11_Interesse;
     }
 
-    public void setR13(String R13) {
-        this.R13 = R13;
+    public void setR11_Interesse(String r11_Interesse) {
+        R11_Interesse = r11_Interesse;
     }
 
-    public String getR14() {
-        return R14;
+    public String getR12_Consiglieresti() {
+        return R12_Consiglieresti;
     }
 
-    public void setR14(String R14) {
-        this.R14 = R14;
+    public void setR12_Consiglieresti(String r12_Consiglieresti) {
+        R12_Consiglieresti = r12_Consiglieresti;
     }
 }

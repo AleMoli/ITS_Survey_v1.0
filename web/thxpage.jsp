@@ -71,7 +71,7 @@
     <div class="section page-tit">
         <div class="container">
             <div class="row">
-                <h1>grazie!</h1>
+                <h2>grazie!</h2>
             </div>
         </div>
     </div>
