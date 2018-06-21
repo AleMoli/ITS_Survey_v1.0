@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffdcd73c-3839-4c59-b495-e9bc05bbbc40" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/erroreurl.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/giavotato.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef052509-845b-484d-975b-5938d98fa914.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef052509-845b-484d-975b-5938d98fa914.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/ITS/Inserimento.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
@@ -20,16 +15,6 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/questionario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITS_Survey_v1_0_war_exploded/questionario.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/ITS/Inserimento.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITS_Survey_v1.0/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Controllo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Controllo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Inserimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Inserimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Model/ElencoEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Model/ElencoEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITS/Model/Questionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITS/Model/Questionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/questionario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/questionario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/thxpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/thxpage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +48,8 @@
       <file leaf-file-name="ElencoEmailImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="689">
+              <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -646,7 +631,7 @@
       <workItem from="1529486114359" duration="2417000" />
       <workItem from="1529488557821" duration="11467000" />
       <workItem from="1529567804120" duration="5818000" />
-      <workItem from="1529596292132" duration="706000" />
+      <workItem from="1529596292132" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="commentato inser docenti di un progetto dell'anno scorso">
       <created>1528455124275</created>
@@ -781,14 +766,22 @@
       <option name="project" value="LOCAL" />
       <updated>1528994203511</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Alessandro, 11-06">
+      <created>1529597356123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1529597356123</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251806000" />
+    <option name="totallyTimeSpent" value="251990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.503125" side_tool="true" weight="0.18703507" />
@@ -1077,6 +1070,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ITS/Dao/ElencoEmailImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="689">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
         </state>
       </provider>
     </entry>
