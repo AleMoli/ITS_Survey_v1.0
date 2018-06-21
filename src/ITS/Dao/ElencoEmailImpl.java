@@ -11,9 +11,6 @@ import java.util.List;
 public class ElencoEmailImpl implements ElencoEmailDao {
 
 
-
-
-
     private EntityManager connessione() {
 
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("its_persistence");
@@ -42,9 +39,16 @@ public class ElencoEmailImpl implements ElencoEmailDao {
     }
 
     @Override
-    public void verificaElencoEmail() {
+    public ElencoEmail verificaElencoEmail(ElencoEmail elencoEmail) {
+        EntityManager manager = this.connessione();
+        return manager.find(ElencoEmail.class, elencoEmail);
+    }
 
-
+    //    nuovo metodo per la nativequery
+    @Override
+    public String searchTitolo() {
+        EntityManager manager = this.connessione();
+        return String.valueOf(manager.createNativeQuery("SELECT VOCE FROM hrs_formazionelavoro_survey.acc_tbm_importiprogetti WHERE hrs_formazionelavoro_survey.acc_tbm_importiprogetti.PIN=1"));
     }
 
     @Override
@@ -55,7 +59,6 @@ public class ElencoEmailImpl implements ElencoEmailDao {
         manager.persist(elencoEmail);
         manager.getTransaction().commit();
     }
-
 
 
 }

@@ -73,7 +73,7 @@
     <div class="section page-tit">
         <div class="container">
             <div class="row">
-                <h2>[Nome Corso]</h2>
+                <h2><%=request.getSession().getAttribute("TitoloCorso")%></h2>
             </div>
         </div>
     </div>

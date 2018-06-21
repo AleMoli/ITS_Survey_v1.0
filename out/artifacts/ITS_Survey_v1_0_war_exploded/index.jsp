@@ -2,7 +2,12 @@
 <%--controllare in url il parametro P--%>
 <%--non valorizzato -> errore corso--%>
 <%--se è valorizzato Find per il corso--%>
-
+<%
+    String PIN = request.getParameter("q");
+    if (PIN == null) {
+        response.sendRedirect("erroreurl.jsp");
+    }
+%>
 <html>
 <head>
     <meta charset="utf-8">
@@ -77,7 +82,7 @@
     <div class="section page-tit">
         <div class="container">
             <div class="row">
-                <h2>[Nome Corso]</h2>
+                <h2> benvenuto! </h2>
             </div>
         </div>
     </div>
@@ -86,7 +91,7 @@
         <div class="container pt-0">
             <div class="row row-col-full">
                 <div class="col-xs-12 col-md-3">
-                    <p><br>benvenuto! <br>compilando il sondaggio saremo in grado di migliorarci:
+                    <p><br><br>compilando il sondaggio saremo in grado di migliorarci:
                         per questo il tuo feedback &egrave prezioso.</p>
                 </div>
                 <div class="col-xs-12 col-md-9">
@@ -106,6 +111,14 @@
                                        placeholder="Inserisci la tua email"
                                        pattern="^[a-zA-Z0-9.!#$%&amp;â€™*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
                                        required>
+                            </div>
+                        </div>
+                        <div class="row row-form-inline">
+                            <div class="col-xs-12">
+                                <input class="form-control" id="PIN" name="PIN"
+                                       type="hidden"
+                                       placeholder="Inserisci il codice di accesso"
+                                       value="<%=PIN %>">
                             </div>
                         </div>
                         <%--INIZIO JS CONSENSO PRIVACY--%>
@@ -131,12 +144,13 @@
                             <div onclick="ClickFlag()" id="DivPrivacy" class="icheckbox_square-blue">
                                 <input id="Privacy"
                                        name="Privacy" type="checkbox"
-                                       value="true" class="ea-triggers-bound"
+                                       value="si" class="ea-triggers-bound"
                                        required
                                        style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
                             </div>
                             <span class="f30 mandatory"></span>
-                            <span class="f14" style="position: relative; top: -8px;">Ho preso visione dell'<a href="privacy.jsp" target="_blank" data-wa-ca="id4">Informativa Privacy</a> ed acconsento al trattamento dei miei Dati personali</span>
+                            <span class="f14" style="position: relative; top: -8px;">Ho preso visione dell'<a
+                                    href="privacy.jsp" target="_blank" data-wa-ca="id4">Informativa Privacy</a> ed acconsento al trattamento dei miei Dati personali</span>
                         </label>
                         <%--FINE FLAG PER IL CONSENSO--%>
                         <div class="row row-form-inline">

@@ -3,6 +3,7 @@ package ITS;
 import ITS.Dao.ElencoEmailImpl;
 import ITS.Model.ElencoEmail;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -42,23 +43,29 @@ public class Controllo extends HttpServlet {
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        String T = request.getParameter("PIN");
         ElencoEmail objemail = new ElencoEmail();
+        objemail.setPIN(Integer.valueOf(request.getParameter("PIN")));
         objemail.setEmail(request.getParameter("Email"));
         objemail.setPrivacy(request.getParameter("Privacy"));
 
-        ElencoEmailImpl Ins = new ElencoEmailImpl();
-        Ins.createElencoEmail(objemail);
 
-//        MANCA IL CONTROLLO CORRETTO SULLA LISTA MAIL
-        // -------------------------------------------------
-//        QuestionarioImpl Dao = new QuestionarioImpl();
-//        Dao.verificaQuestionario("Email");
-        // --------------------------------------------------
+//      METODO CHE CONTROLLA SE ESISTE LA MAIL SUL DB
+        ElencoEmailImpl Controllo = new ElencoEmailImpl();
+        ElencoEmail elencoEmail = Controllo.verificaElencoEmail(objemail);
 
-        request.getSession().setAttribute("objemail", objemail);
+        if( elencoEmail == null) {
+            String titoloCorso = Controllo.searchTitolo();
+            request.getSession().setAttribute("TitoloCorso", titoloCorso);
+            request.getSession().setAttribute("objemail", objemail);
+            response.sendRedirect("questionario.jsp");
+        }
+        else
+            response.sendRedirect("giavotato.jsp");
 
-        response.sendRedirect("questionario.jsp");
+
+
+
 
 
     }

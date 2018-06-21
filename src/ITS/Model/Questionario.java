@@ -1,13 +1,13 @@
 package ITS.Model;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "questionario")
-public class Questionario {
+@Table(name = "survey_tbm_questionario")
+public class Questionario implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer ID;
+    Integer PIN;
     @Column
     String R1_Generale;
     @Column
@@ -39,12 +39,12 @@ public class Questionario {
     @Column
     String R12_Consiglieresti;
 
-    public Integer getID() {
-        return ID;
+    public Integer getPIN() {
+        return PIN;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setPIN(Integer PIN) {
+        this.PIN = PIN;
     }
 
     public String getR1_Generale() {

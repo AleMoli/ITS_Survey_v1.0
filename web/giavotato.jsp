@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -82,10 +83,10 @@
             <span id="registered-user-id" class="hidden">a7f95ea4-5b6f-4603-8791-4f2bc47fa7cb</span>
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    Le tue valutazioni ci aiuteranno a migliorare ancora la nostra offarta formativa<br><br>
+                    L'indirizzo Email inserito ha gia votato questo questionario.
+                    <br><br>Le tue valutazioni ci aiuteranno a migliorare ancora la nostra offarta formativa<br><br>
                     <p>Continua a seguirci online: <br>scegli il tuo prossimo corso su <a href="https://www.randstad.it/competence/"
-                                                                                  target="_blank">Competence.</a>
-                    <%--<p><a href="https://mail.google.com/" target="_blank"><img src="/Content/assets/mail-sent.png"></a></p>--%>
+                                                                                          target="_blank">Competence.</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
             </div>
         </div>

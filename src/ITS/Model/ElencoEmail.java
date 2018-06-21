@@ -1,24 +1,24 @@
 package ITS.Model;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "elencoemail")
-public class ElencoEmail {
+@Table(name = "survey_tbm_elencoemail")
+public class ElencoEmail implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer ID;
-    @Column
+    Integer PIN;
+    @Id
     String Email;
     @Column
     String Privacy;
 
-    public Integer getID() {
-        return ID;
+    public Integer getPIN() {
+        return PIN;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setPIN(Integer PIN) {
+        this.PIN = PIN;
     }
 
     public String getEmail() {

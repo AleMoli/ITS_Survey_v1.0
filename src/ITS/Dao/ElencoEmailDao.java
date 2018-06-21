@@ -14,7 +14,10 @@ public interface ElencoEmailDao {
 
     void deleteElencoEmail(ElencoEmail elencoEmail);
 
-    void verificaElencoEmail();
+    ElencoEmail verificaElencoEmail(ElencoEmail elencoEmail);
+
+    //    nuovo metodo per la nativequery
+    String searchTitolo();
 
     void createElencoEmail(ElencoEmail elencoEmail);
 }
