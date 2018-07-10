@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
-    <link rel="icon" href="">
-    <title>Invia il tuo Curriculum Vitae a Randstad</title>
-    <meta name="description" content="Compila il modulo per inviare il tuo Curriculum Vitae a Randstad.">
-    <meta name="keywords" content="invio cv a randstad">
+    <link rel="icon" href="https://extranetqa.randstad.it/favicon.ico">
+    <title>Questionario do valutazione</title>
+    <meta name="description" content="Compila il modulo per inviare la tua valutazione a Randstad.">
     <link href="css_myRandstad.css" rel="stylesheet" media="screen">
-    <%--<link href="css_randstad_nostro.css" rel="stylesheet" media="screen">--%>
     <style>
         body.cbp-spmenu-push {
             -webkit-transition: none !important;
@@ -74,6 +72,7 @@
         <div class="container">
             <div class="row">
                 <h2><%=request.getSession().getAttribute("TitoloCorso")%></h2>
+                <%--<h2>Questionario</h2>--%>
             </div>
         </div>
     </div>

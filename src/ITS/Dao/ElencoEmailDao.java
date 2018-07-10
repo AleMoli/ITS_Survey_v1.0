@@ -16,8 +16,7 @@ public interface ElencoEmailDao {
 
     ElencoEmail verificaElencoEmail(ElencoEmail elencoEmail);
 
-    //    nuovo metodo per la nativequery
-    String searchTitolo();
+    String searchTitolo(Integer PIN);
 
     void createElencoEmail(ElencoEmail elencoEmail);
 }

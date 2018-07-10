@@ -4,9 +4,6 @@
 <%--se è valorizzato Find per il corso--%>
 <%
     String PIN = request.getParameter("q");
-    if (PIN == null) {
-        response.sendRedirect("erroreurl.jsp");
-    }
 %>
 <html>
 <head>
@@ -14,12 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
-    <link rel="icon" href="">
-    <title>Invia il tuo Curriculum Vitae a Randstad</title>
-    <meta name="description" content="Compila il modulo per inviare il tuo Curriculum Vitae a Randstad.">
-    <meta name="keywords" content="invio cv a randstad">
+    <link rel="icon" href="https://extranetqa.randstad.it/favicon.ico">
+    <title>Questionario do valutazione</title>
+    <meta name="description" content="Compila il modulo per inviare la tua valutazione a Randstad.">
     <link href="css_myRandstad.css" rel="stylesheet" media="screen">
-    <%--<link href="css_randstad_nostro.css" rel="stylesheet" media="screen">--%>
     <style>
         body.cbp-spmenu-push {
             -webkit-transition: none !important;
@@ -115,10 +110,22 @@
                         </div>
                         <div class="row row-form-inline">
                             <div class="col-xs-12">
+                                <%
+                                    if (PIN == null) {
+                                %>
+                                <input class="form-control" id="PIN" name="PIN"
+                                       type="text"
+                                       placeholder="Codice di accesso"
+                                       required>
+                                <%
+                                } else {
+                                %>
                                 <input class="form-control" id="PIN" name="PIN"
                                        type="hidden"
-                                       placeholder="Inserisci il codice di accesso"
                                        value="<%=PIN %>">
+                                <%
+                                    }
+                                %>
                             </div>
                         </div>
                         <%--INIZIO JS CONSENSO PRIVACY--%>

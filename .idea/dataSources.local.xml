@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="its_prova@127.0.0.1" uuid="ef052509-845b-484d-975b-5938d98fa914">
+    <data-source name="hrs_formazionelavoro_survey@127.0.0.1" uuid="a33a8d00-eaf2-448e-8d24-1e98aa1cc279">
       <database-info product="MySQL" version="5.7.22-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:hrs_formazionelavoro_survey,its_prova</introspection-schemas>
+      <introspection-schemas>*:hrs_formazionelavoro_survey</introspection-schemas>
     </data-source>
   </component>
 </project>

@@ -6,6 +6,7 @@ import ITS.Model.ElencoEmail;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 import java.util.List;
 
 public class ElencoEmailImpl implements ElencoEmailDao {
@@ -44,12 +45,13 @@ public class ElencoEmailImpl implements ElencoEmailDao {
         return manager.find(ElencoEmail.class, elencoEmail);
     }
 
-    //    nuovo metodo per la nativequery
-    @Override
-    public String searchTitolo() {
-        EntityManager manager = this.connessione();
-        return String.valueOf(manager.createNativeQuery("SELECT VOCE FROM hrs_formazionelavoro_survey.acc_tbm_importiprogetti WHERE hrs_formazionelavoro_survey.acc_tbm_importiprogetti.PIN=1"));
-    }
+//        nuovo metodo per la nativequery
+@Override
+public String searchTitolo(Integer PIN) {
+    EntityManager manager = this.connessione();
+    Query query = manager.createNativeQuery("SELECT VOCE FROM hrs_formazionelavoro_survey.acc_tbm_importiprogetti s WHERE s.PIN=" + PIN + "");
+    return (String) query.getSingleResult();
+}
 
     @Override
     public void createElencoEmail(ElencoEmail elencoEmail) {
